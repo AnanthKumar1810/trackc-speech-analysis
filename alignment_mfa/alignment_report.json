@@ -1,0 +1,8 @@
+{
+  "total_clips": 273,
+  "accepted_clips": 273,
+  "coverage_percent": 100.0,
+  "flagged_clips": 170,
+  "human_word_boundary_accuracy": null,
+  "accuracy_note": "Coverage and disagreement with PocketSphinx are not boundary accuracy. A hand-labeled reference is required."
+}

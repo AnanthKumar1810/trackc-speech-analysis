@@ -1,0 +1,2945 @@
+[
+  {
+    "source_id": "reagan",
+    "speaker_id": "ronald_reagan",
+    "split": "train",
+    "source_start_sample_16k": 2408160,
+    "source_end_sample_16k": 2622880,
+    "text": "The orderly transfer of authority as called for in the Constitution routinely takes place, as it has for almost two centuries, and few of us stop to think how unique we really are.",
+    "words": [
+      {
+        "word": "the",
+        "start_sample": 800,
+        "end_sample": 3200
+      },
+      {
+        "word": "orderly",
+        "start_sample": 3200,
+        "end_sample": 11680
+      },
+      {
+        "word": "transfer",
+        "start_sample": 11680,
+        "end_sample": 22880
+      },
+      {
+        "word": "of",
+        "start_sample": 22880,
+        "end_sample": 24640
+      },
+      {
+        "word": "authority",
+        "start_sample": 24640,
+        "end_sample": 32800
+      },
+      {
+        "word": "as",
+        "start_sample": 32800,
+        "end_sample": 35680
+      },
+      {
+        "word": "called",
+        "start_sample": 35680,
+        "end_sample": 40960
+      },
+      {
+        "word": "for",
+        "start_sample": 40960,
+        "end_sample": 44800
+      },
+      {
+        "word": "in",
+        "start_sample": 44800,
+        "end_sample": 46080
+      },
+      {
+        "word": "the",
+        "start_sample": 46080,
+        "end_sample": 47360
+      },
+      {
+        "word": "constitution",
+        "start_sample": 47360,
+        "end_sample": 61920
+      },
+      {
+        "word": "routinely",
+        "start_sample": 74720,
+        "end_sample": 85600
+      },
+      {
+        "word": "takes",
+        "start_sample": 85600,
+        "end_sample": 90720
+      },
+      {
+        "word": "place",
+        "start_sample": 90720,
+        "end_sample": 97760
+      },
+      {
+        "word": "as",
+        "start_sample": 97760,
+        "end_sample": 100160
+      },
+      {
+        "word": "it",
+        "start_sample": 100160,
+        "end_sample": 101280
+      },
+      {
+        "word": "has",
+        "start_sample": 101280,
+        "end_sample": 106720
+      },
+      {
+        "word": "for",
+        "start_sample": 106720,
+        "end_sample": 109440
+      },
+      {
+        "word": "almost",
+        "start_sample": 109440,
+        "end_sample": 116480
+      },
+      {
+        "word": "two",
+        "start_sample": 116480,
+        "end_sample": 119200
+      },
+      {
+        "word": "centuries",
+        "start_sample": 119200,
+        "end_sample": 129760
+      },
+      {
+        "word": "and",
+        "start_sample": 143520,
+        "end_sample": 146880
+      },
+      {
+        "word": "few",
+        "start_sample": 146880,
+        "end_sample": 152640
+      },
+      {
+        "word": "of",
+        "start_sample": 152640,
+        "end_sample": 154560
+      },
+      {
+        "word": "us",
+        "start_sample": 154560,
+        "end_sample": 160800
+      },
+      {
+        "word": "stop",
+        "start_sample": 160800,
+        "end_sample": 167840
+      },
+      {
+        "word": "to",
+        "start_sample": 167840,
+        "end_sample": 169280
+      },
+      {
+        "word": "think",
+        "start_sample": 169280,
+        "end_sample": 174720
+      },
+      {
+        "word": "how",
+        "start_sample": 174720,
+        "end_sample": 182400
+      },
+      {
+        "word": "unique",
+        "start_sample": 182400,
+        "end_sample": 191200
+      },
+      {
+        "word": "we",
+        "start_sample": 201120,
+        "end_sample": 203840
+      },
+      {
+        "word": "really",
+        "start_sample": 203840,
+        "end_sample": 208640
+      },
+      {
+        "word": "are",
+        "start_sample": 208640,
+        "end_sample": 213920
+      }
+    ],
+    "asr_anchor_word_coverage": 0.7575757575757576,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "reagan_001"
+  },
+  {
+    "source_id": "reagan",
+    "speaker_id": "ronald_reagan",
+    "split": "train",
+    "source_start_sample_16k": 2639840,
+    "source_end_sample_16k": 2765600,
+    "text": "In the eyes of many in the world, this every-four-year ceremony we accept as normal is nothing less than a miracle.",
+    "words": [
+      {
+        "word": "in",
+        "start_sample": 800,
+        "end_sample": 2080
+      },
+      {
+        "word": "the",
+        "start_sample": 2080,
+        "end_sample": 4000
+      },
+      {
+        "word": "eyes",
+        "start_sample": 4000,
+        "end_sample": 10240
+      },
+      {
+        "word": "of",
+        "start_sample": 10240,
+        "end_sample": 12160
+      },
+      {
+        "word": "many",
+        "start_sample": 12160,
+        "end_sample": 16960
+      },
+      {
+        "word": "in",
+        "start_sample": 16960,
+        "end_sample": 19360
+      },
+      {
+        "word": "the",
+        "start_sample": 19360,
+        "end_sample": 20640
+      },
+      {
+        "word": "world",
+        "start_sample": 20640,
+        "end_sample": 28320
+      },
+      {
+        "word": "this",
+        "start_sample": 36800,
+        "end_sample": 41760
+      },
+      {
+        "word": "every",
+        "start_sample": 41760,
+        "end_sample": 49600
+      },
+      {
+        "word": "four",
+        "start_sample": 49600,
+        "end_sample": 55520
+      },
+      {
+        "word": "year",
+        "start_sample": 55520,
+        "end_sample": 59840
+      },
+      {
+        "word": "ceremony",
+        "start_sample": 59840,
+        "end_sample": 70240
+      },
+      {
+        "word": "we",
+        "start_sample": 70240,
+        "end_sample": 73760
+      },
+      {
+        "word": "accept",
+        "start_sample": 73760,
+        "end_sample": 80800
+      },
+      {
+        "word": "as",
+        "start_sample": 80800,
+        "end_sample": 83360
+      },
+      {
+        "word": "normal",
+        "start_sample": 83360,
+        "end_sample": 90720
+      },
+      {
+        "word": "is",
+        "start_sample": 101760,
+        "end_sample": 104800
+      },
+      {
+        "word": "nothing",
+        "start_sample": 104800,
+        "end_sample": 110560
+      },
+      {
+        "word": "less",
+        "start_sample": 110560,
+        "end_sample": 115360
+      },
+      {
+        "word": "than",
+        "start_sample": 115360,
+        "end_sample": 117440
+      },
+      {
+        "word": "a",
+        "start_sample": 117440,
+        "end_sample": 118080
+      },
+      {
+        "word": "miracle",
+        "start_sample": 118080,
+        "end_sample": 124960
+      }
+    ],
+    "asr_anchor_word_coverage": 0.782608695652174,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "reagan_002"
+  },
+  {
+    "source_id": "reagan",
+    "speaker_id": "ronald_reagan",
+    "split": "train",
+    "source_start_sample_16k": 3780160,
+    "source_end_sample_16k": 3918880,
+    "text": "It distorts our economic decisions, penalizes thrift, and crushes the struggling young and the fixed-income elderly alike.",
+    "words": [
+      {
+        "word": "it",
+        "start_sample": 800,
+        "end_sample": 3040
+      },
+      {
+        "word": "distorts",
+        "start_sample": 3040,
+        "end_sample": 11680
+      },
+      {
+        "word": "our",
+        "start_sample": 11680,
+        "end_sample": 14720
+      },
+      {
+        "word": "economic",
+        "start_sample": 14720,
+        "end_sample": 23520
+      },
+      {
+        "word": "decisions",
+        "start_sample": 23520,
+        "end_sample": 36960
+      },
+      {
+        "word": "penalizes",
+        "start_sample": 46880,
+        "end_sample": 59360
+      },
+      {
+        "word": "thrift",
+        "start_sample": 59360,
+        "end_sample": 68000
+      },
+      {
+        "word": "and",
+        "start_sample": 77760,
+        "end_sample": 79520
+      },
+      {
+        "word": "crushes",
+        "start_sample": 79520,
+        "end_sample": 87840
+      },
+      {
+        "word": "the",
+        "start_sample": 87840,
+        "end_sample": 89440
+      },
+      {
+        "word": "struggling",
+        "start_sample": 89440,
+        "end_sample": 98080
+      },
+      {
+        "word": "young",
+        "start_sample": 98080,
+        "end_sample": 104800
+      },
+      {
+        "word": "and",
+        "start_sample": 104800,
+        "end_sample": 108800
+      },
+      {
+        "word": "the",
+        "start_sample": 108800,
+        "end_sample": 109920
+      },
+      {
+        "word": "fixed",
+        "start_sample": 109920,
+        "end_sample": 116480
+      },
+      {
+        "word": "income",
+        "start_sample": 116480,
+        "end_sample": 124000
+      },
+      {
+        "word": "elderly",
+        "start_sample": 124000,
+        "end_sample": 131040
+      },
+      {
+        "word": "alike",
+        "start_sample": 131040,
+        "end_sample": 137920
+      }
+    ],
+    "asr_anchor_word_coverage": 0.6666666666666666,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "reagan_003"
+  },
+  {
+    "source_id": "reagan",
+    "speaker_id": "ronald_reagan",
+    "split": "train",
+    "source_start_sample_16k": 4107680,
+    "source_end_sample_16k": 4287200,
+    "text": "Those who do work are denied a fair return for their labor by a tax system which penalizes successful achievement and keeps us from maintaining full productivity.",
+    "words": [
+      {
+        "word": "those",
+        "start_sample": 800,
+        "end_sample": 5440
+      },
+      {
+        "word": "who",
+        "start_sample": 5440,
+        "end_sample": 7520
+      },
+      {
+        "word": "do",
+        "start_sample": 7520,
+        "end_sample": 11520
+      },
+      {
+        "word": "work",
+        "start_sample": 11520,
+        "end_sample": 18240
+      },
+      {
+        "word": "are",
+        "start_sample": 29280,
+        "end_sample": 30560
+      },
+      {
+        "word": "denied",
+        "start_sample": 30560,
+        "end_sample": 37600
+      },
+      {
+        "word": "a",
+        "start_sample": 37600,
+        "end_sample": 38560
+      },
+      {
+        "word": "fair",
+        "start_sample": 38560,
+        "end_sample": 43840
+      },
+      {
+        "word": "return",
+        "start_sample": 43840,
+        "end_sample": 52480
+      },
+      {
+        "word": "for",
+        "start_sample": 52480,
+        "end_sample": 53920
+      },
+      {
+        "word": "their",
+        "start_sample": 53920,
+        "end_sample": 56320
+      },
+      {
+        "word": "labor",
+        "start_sample": 56320,
+        "end_sample": 61440
+      },
+      {
+        "word": "by",
+        "start_sample": 61440,
+        "end_sample": 65280
+      },
+      {
+        "word": "a",
+        "start_sample": 65280,
+        "end_sample": 66080
+      },
+      {
+        "word": "tax",
+        "start_sample": 66080,
+        "end_sample": 72480
+      },
+      {
+        "word": "system",
+        "start_sample": 72480,
+        "end_sample": 81120
+      },
+      {
+        "word": "which",
+        "start_sample": 88800,
+        "end_sample": 92000
+      },
+      {
+        "word": "penalizes",
+        "start_sample": 92000,
+        "end_sample": 104640
+      },
+      {
+        "word": "successful",
+        "start_sample": 104640,
+        "end_sample": 115200
+      },
+      {
+        "word": "achievement",
+        "start_sample": 115200,
+        "end_sample": 132320
+      },
+      {
+        "word": "and",
+        "start_sample": 132320,
+        "end_sample": 136480
+      },
+      {
+        "word": "keeps",
+        "start_sample": 136480,
+        "end_sample": 142240
+      },
+      {
+        "word": "us",
+        "start_sample": 142240,
+        "end_sample": 145440
+      },
+      {
+        "word": "from",
+        "start_sample": 145440,
+        "end_sample": 148800
+      },
+      {
+        "word": "maintaining",
+        "start_sample": 148800,
+        "end_sample": 160320
+      },
+      {
+        "word": "full",
+        "start_sample": 160320,
+        "end_sample": 166080
+      },
+      {
+        "word": "productivity",
+        "start_sample": 166080,
+        "end_sample": 178720
+      }
+    ],
+    "asr_anchor_word_coverage": 0.9259259259259259,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "reagan_004"
+  },
+  {
+    "source_id": "reagan",
+    "speaker_id": "ronald_reagan",
+    "split": "train",
+    "source_start_sample_16k": 4413920,
+    "source_end_sample_16k": 4570880,
+    "text": "For decades we have piled deficit upon deficit, mortgaging our future and our children's future for the temporary convenience of the present.",
+    "words": [
+      {
+        "word": "for",
+        "start_sample": 800,
+        "end_sample": 3680
+      },
+      {
+        "word": "decades",
+        "start_sample": 3680,
+        "end_sample": 18240
+      },
+      {
+        "word": "we",
+        "start_sample": 26240,
+        "end_sample": 29440
+      },
+      {
+        "word": "have",
+        "start_sample": 29440,
+        "end_sample": 31680
+      },
+      {
+        "word": "piled",
+        "start_sample": 31680,
+        "end_sample": 40800
+      },
+      {
+        "word": "deficit",
+        "start_sample": 40800,
+        "end_sample": 48320
+      },
+      {
+        "word": "upon",
+        "start_sample": 48320,
+        "end_sample": 53760
+      },
+      {
+        "word": "deficit",
+        "start_sample": 53760,
+        "end_sample": 61440
+      },
+      {
+        "word": "mortgaging",
+        "start_sample": 70240,
+        "end_sample": 79680
+      },
+      {
+        "word": "our",
+        "start_sample": 79680,
+        "end_sample": 82720
+      },
+      {
+        "word": "future",
+        "start_sample": 82720,
+        "end_sample": 89920
+      },
+      {
+        "word": "and",
+        "start_sample": 89920,
+        "end_sample": 91360
+      },
+      {
+        "word": "our",
+        "start_sample": 91360,
+        "end_sample": 93760
+      },
+      {
+        "word": "children's",
+        "start_sample": 93760,
+        "end_sample": 102400
+      },
+      {
+        "word": "future",
+        "start_sample": 102400,
+        "end_sample": 109760
+      },
+      {
+        "word": "for",
+        "start_sample": 116640,
+        "end_sample": 117920
+      },
+      {
+        "word": "the",
+        "start_sample": 117920,
+        "end_sample": 119520
+      },
+      {
+        "word": "temporary",
+        "start_sample": 119520,
+        "end_sample": 128960
+      },
+      {
+        "word": "convenience",
+        "start_sample": 128960,
+        "end_sample": 142240
+      },
+      {
+        "word": "of",
+        "start_sample": 144480,
+        "end_sample": 146240
+      },
+      {
+        "word": "the",
+        "start_sample": 146240,
+        "end_sample": 147520
+      },
+      {
+        "word": "present",
+        "start_sample": 147520,
+        "end_sample": 156160
+      }
+    ],
+    "asr_anchor_word_coverage": 0.7272727272727273,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "reagan_005"
+  },
+  {
+    "source_id": "reagan",
+    "speaker_id": "ronald_reagan",
+    "split": "train",
+    "source_start_sample_16k": 4739520,
+    "source_end_sample_16k": 4885920,
+    "text": "You and I, as individuals, can, by borrowing, live beyond our means, but for only a limited period of time.",
+    "words": [
+      {
+        "word": "you",
+        "start_sample": 800,
+        "end_sample": 4960
+      },
+      {
+        "word": "and",
+        "start_sample": 4960,
+        "end_sample": 6400
+      },
+      {
+        "word": "i",
+        "start_sample": 6400,
+        "end_sample": 13280
+      },
+      {
+        "word": "as",
+        "start_sample": 22400,
+        "end_sample": 26080
+      },
+      {
+        "word": "individuals",
+        "start_sample": 26080,
+        "end_sample": 40960
+      },
+      {
+        "word": "can",
+        "start_sample": 40960,
+        "end_sample": 48640
+      },
+      {
+        "word": "by",
+        "start_sample": 48640,
+        "end_sample": 51840
+      },
+      {
+        "word": "borrowing",
+        "start_sample": 51840,
+        "end_sample": 63520
+      },
+      {
+        "word": "live",
+        "start_sample": 71200,
+        "end_sample": 77280
+      },
+      {
+        "word": "beyond",
+        "start_sample": 77280,
+        "end_sample": 84800
+      },
+      {
+        "word": "our",
+        "start_sample": 84800,
+        "end_sample": 87840
+      },
+      {
+        "word": "means",
+        "start_sample": 87840,
+        "end_sample": 99200
+      },
+      {
+        "word": "but",
+        "start_sample": 110720,
+        "end_sample": 113920
+      },
+      {
+        "word": "for",
+        "start_sample": 113920,
+        "end_sample": 116800
+      },
+      {
+        "word": "only",
+        "start_sample": 116800,
+        "end_sample": 122720
+      },
+      {
+        "word": "a",
+        "start_sample": 122720,
+        "end_sample": 123680
+      },
+      {
+        "word": "limited",
+        "start_sample": 123680,
+        "end_sample": 131200
+      },
+      {
+        "word": "period",
+        "start_sample": 131200,
+        "end_sample": 137120
+      },
+      {
+        "word": "of",
+        "start_sample": 137120,
+        "end_sample": 138560
+      },
+      {
+        "word": "time",
+        "start_sample": 138560,
+        "end_sample": 145600
+      }
+    ],
+    "asr_anchor_word_coverage": 0.9,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "reagan_006"
+  },
+  {
+    "source_id": "reagan",
+    "speaker_id": "ronald_reagan",
+    "split": "train",
+    "source_start_sample_16k": 5518400,
+    "source_end_sample_16k": 5736960,
+    "text": "They will go away because we as Americans have the capacity now, as we've had in the past, to do whatever needs to be done to preserve this last and greatest bastion of freedom.",
+    "words": [
+      {
+        "word": "they",
+        "start_sample": 800,
+        "end_sample": 3200
+      },
+      {
+        "word": "will",
+        "start_sample": 3200,
+        "end_sample": 6080
+      },
+      {
+        "word": "go",
+        "start_sample": 6080,
+        "end_sample": 9120
+      },
+      {
+        "word": "away",
+        "start_sample": 9120,
+        "end_sample": 15200
+      },
+      {
+        "word": "because",
+        "start_sample": 15200,
+        "end_sample": 22560
+      },
+      {
+        "word": "we",
+        "start_sample": 22560,
+        "end_sample": 31520
+      },
+      {
+        "word": "as",
+        "start_sample": 31520,
+        "end_sample": 35200
+      },
+      {
+        "word": "americans",
+        "start_sample": 35200,
+        "end_sample": 49760
+      },
+      {
+        "word": "have",
+        "start_sample": 57120,
+        "end_sample": 62720
+      },
+      {
+        "word": "the",
+        "start_sample": 62720,
+        "end_sample": 64160
+      },
+      {
+        "word": "capacity",
+        "start_sample": 64160,
+        "end_sample": 76960
+      },
+      {
+        "word": "now",
+        "start_sample": 76960,
+        "end_sample": 84320
+      },
+      {
+        "word": "as",
+        "start_sample": 84320,
+        "end_sample": 86880
+      },
+      {
+        "word": "we've",
+        "start_sample": 86880,
+        "end_sample": 90240
+      },
+      {
+        "word": "had",
+        "start_sample": 90240,
+        "end_sample": 94080
+      },
+      {
+        "word": "in",
+        "start_sample": 94080,
+        "end_sample": 95840
+      },
+      {
+        "word": "the",
+        "start_sample": 95840,
+        "end_sample": 97280
+      },
+      {
+        "word": "past",
+        "start_sample": 97280,
+        "end_sample": 107360
+      },
+      {
+        "word": "to",
+        "start_sample": 118880,
+        "end_sample": 120960
+      },
+      {
+        "word": "do",
+        "start_sample": 120960,
+        "end_sample": 127680
+      },
+      {
+        "word": "whatever",
+        "start_sample": 127680,
+        "end_sample": 134720
+      },
+      {
+        "word": "needs",
+        "start_sample": 134720,
+        "end_sample": 141920
+      },
+      {
+        "word": "to",
+        "start_sample": 141920,
+        "end_sample": 143360
+      },
+      {
+        "word": "be",
+        "start_sample": 143360,
+        "end_sample": 146080
+      },
+      {
+        "word": "done",
+        "start_sample": 146080,
+        "end_sample": 152160
+      },
+      {
+        "word": "to",
+        "start_sample": 165760,
+        "end_sample": 167680
+      },
+      {
+        "word": "preserve",
+        "start_sample": 167680,
+        "end_sample": 180320
+      },
+      {
+        "word": "this",
+        "start_sample": 180320,
+        "end_sample": 185280
+      },
+      {
+        "word": "last",
+        "start_sample": 185280,
+        "end_sample": 193920
+      },
+      {
+        "word": "and",
+        "start_sample": 193920,
+        "end_sample": 196960
+      },
+      {
+        "word": "greatest",
+        "start_sample": 196960,
+        "end_sample": 203040
+      },
+      {
+        "word": "bastion",
+        "start_sample": 203040,
+        "end_sample": 210720
+      },
+      {
+        "word": "of",
+        "start_sample": 210720,
+        "end_sample": 212320
+      },
+      {
+        "word": "freedom",
+        "start_sample": 212320,
+        "end_sample": 217760
+      }
+    ],
+    "asr_anchor_word_coverage": 0.8529411764705882,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "reagan_007"
+  },
+  {
+    "source_id": "reagan",
+    "speaker_id": "ronald_reagan",
+    "split": "train",
+    "source_start_sample_16k": 5993920,
+    "source_end_sample_16k": 6237600,
+    "text": "From time to time we've been tempted to believe that society has become too complex to be managed by self-rule, that government by an elite group is superior to government for, by, and of the people.",
+    "words": [
+      {
+        "word": "from",
+        "start_sample": 0,
+        "end_sample": 6720
+      },
+      {
+        "word": "time",
+        "start_sample": 6720,
+        "end_sample": 13120
+      },
+      {
+        "word": "to",
+        "start_sample": 13120,
+        "end_sample": 14720
+      },
+      {
+        "word": "time",
+        "start_sample": 14720,
+        "end_sample": 21280
+      },
+      {
+        "word": "we've",
+        "start_sample": 21280,
+        "end_sample": 24320
+      },
+      {
+        "word": "been",
+        "start_sample": 24320,
+        "end_sample": 27360
+      },
+      {
+        "word": "tempted",
+        "start_sample": 27360,
+        "end_sample": 32960
+      },
+      {
+        "word": "to",
+        "start_sample": 32960,
+        "end_sample": 34080
+      },
+      {
+        "word": "believe",
+        "start_sample": 34080,
+        "end_sample": 40000
+      },
+      {
+        "word": "that",
+        "start_sample": 40000,
+        "end_sample": 41600
+      },
+      {
+        "word": "society",
+        "start_sample": 41600,
+        "end_sample": 52320
+      },
+      {
+        "word": "has",
+        "start_sample": 52320,
+        "end_sample": 54240
+      },
+      {
+        "word": "become",
+        "start_sample": 54240,
+        "end_sample": 59520
+      },
+      {
+        "word": "too",
+        "start_sample": 59520,
+        "end_sample": 62720
+      },
+      {
+        "word": "complex",
+        "start_sample": 62720,
+        "end_sample": 76480
+      },
+      {
+        "word": "to",
+        "start_sample": 84800,
+        "end_sample": 86560
+      },
+      {
+        "word": "be",
+        "start_sample": 86560,
+        "end_sample": 88800
+      },
+      {
+        "word": "managed",
+        "start_sample": 88800,
+        "end_sample": 98560
+      },
+      {
+        "word": "by",
+        "start_sample": 98560,
+        "end_sample": 101600
+      },
+      {
+        "word": "self",
+        "start_sample": 101600,
+        "end_sample": 107680
+      },
+      {
+        "word": "rule",
+        "start_sample": 107680,
+        "end_sample": 113600
+      },
+      {
+        "word": "that",
+        "start_sample": 127200,
+        "end_sample": 130240
+      },
+      {
+        "word": "government",
+        "start_sample": 130240,
+        "end_sample": 138240
+      },
+      {
+        "word": "by",
+        "start_sample": 138240,
+        "end_sample": 141920
+      },
+      {
+        "word": "an",
+        "start_sample": 141920,
+        "end_sample": 143520
+      },
+      {
+        "word": "elite",
+        "start_sample": 143520,
+        "end_sample": 148800
+      },
+      {
+        "word": "group",
+        "start_sample": 148800,
+        "end_sample": 154240
+      },
+      {
+        "word": "is",
+        "start_sample": 154240,
+        "end_sample": 155840
+      },
+      {
+        "word": "superior",
+        "start_sample": 155840,
+        "end_sample": 167040
+      },
+      {
+        "word": "to",
+        "start_sample": 174240,
+        "end_sample": 176000
+      },
+      {
+        "word": "government",
+        "start_sample": 176000,
+        "end_sample": 183040
+      },
+      {
+        "word": "for",
+        "start_sample": 183040,
+        "end_sample": 191840
+      },
+      {
+        "word": "by",
+        "start_sample": 202080,
+        "end_sample": 210240
+      },
+      {
+        "word": "and",
+        "start_sample": 229920,
+        "end_sample": 232000
+      },
+      {
+        "word": "of",
+        "start_sample": 232000,
+        "end_sample": 234240
+      },
+      {
+        "word": "the",
+        "start_sample": 234240,
+        "end_sample": 235840
+      },
+      {
+        "word": "people",
+        "start_sample": 235840,
+        "end_sample": 242880
+      }
+    ],
+    "asr_anchor_word_coverage": 0.918918918918919,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "reagan_008"
+  },
+  {
+    "source_id": "reagan",
+    "speaker_id": "ronald_reagan",
+    "split": "train",
+    "source_start_sample_16k": 6254720,
+    "source_end_sample_16k": 6399040,
+    "text": "Well, if no one among us is capable of governing himself, then who among us has the capacity to govern someone else?",
+    "words": [
+      {
+        "word": "well",
+        "start_sample": 800,
+        "end_sample": 3200
+      },
+      {
+        "word": "if",
+        "start_sample": 3200,
+        "end_sample": 4640
+      },
+      {
+        "word": "no",
+        "start_sample": 4640,
+        "end_sample": 8640
+      },
+      {
+        "word": "one",
+        "start_sample": 8640,
+        "end_sample": 12320
+      },
+      {
+        "word": "among",
+        "start_sample": 12320,
+        "end_sample": 18080
+      },
+      {
+        "word": "us",
+        "start_sample": 18080,
+        "end_sample": 25920
+      },
+      {
+        "word": "is",
+        "start_sample": 25920,
+        "end_sample": 30080
+      },
+      {
+        "word": "capable",
+        "start_sample": 30080,
+        "end_sample": 38720
+      },
+      {
+        "word": "of",
+        "start_sample": 38720,
+        "end_sample": 41120
+      },
+      {
+        "word": "governing",
+        "start_sample": 41120,
+        "end_sample": 47840
+      },
+      {
+        "word": "himself",
+        "start_sample": 47840,
+        "end_sample": 58560
+      },
+      {
+        "word": "then",
+        "start_sample": 73760,
+        "end_sample": 78240
+      },
+      {
+        "word": "who",
+        "start_sample": 78240,
+        "end_sample": 83040
+      },
+      {
+        "word": "among",
+        "start_sample": 83040,
+        "end_sample": 88160
+      },
+      {
+        "word": "us",
+        "start_sample": 88160,
+        "end_sample": 93120
+      },
+      {
+        "word": "has",
+        "start_sample": 100320,
+        "end_sample": 104960
+      },
+      {
+        "word": "the",
+        "start_sample": 104960,
+        "end_sample": 106240
+      },
+      {
+        "word": "capacity",
+        "start_sample": 106240,
+        "end_sample": 118720
+      },
+      {
+        "word": "to",
+        "start_sample": 118720,
+        "end_sample": 120960
+      },
+      {
+        "word": "govern",
+        "start_sample": 120960,
+        "end_sample": 128160
+      },
+      {
+        "word": "someone",
+        "start_sample": 128160,
+        "end_sample": 136480
+      },
+      {
+        "word": "else",
+        "start_sample": 136480,
+        "end_sample": 143520
+      }
+    ],
+    "asr_anchor_word_coverage": 0.8636363636363636,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "reagan_009"
+  },
+  {
+    "source_id": "reagan",
+    "speaker_id": "ronald_reagan",
+    "split": "train",
+    "source_start_sample_16k": 7329440,
+    "source_end_sample_16k": 7510880,
+    "text": "Well, this administration's objective will be a healthy, vigorous, growing economy that provides equal opportunities for all Americans with no barriers born of bigotry or discrimination.",
+    "words": [
+      {
+        "word": "well",
+        "start_sample": 800,
+        "end_sample": 3360
+      },
+      {
+        "word": "this",
+        "start_sample": 3360,
+        "end_sample": 6880
+      },
+      {
+        "word": "administration's",
+        "start_sample": 6880,
+        "end_sample": 20800
+      },
+      {
+        "word": "objective",
+        "start_sample": 20800,
+        "end_sample": 29600
+      },
+      {
+        "word": "will",
+        "start_sample": 29600,
+        "end_sample": 32000
+      },
+      {
+        "word": "be",
+        "start_sample": 32000,
+        "end_sample": 35040
+      },
+      {
+        "word": "a",
+        "start_sample": 35040,
+        "end_sample": 35840
+      },
+      {
+        "word": "healthy",
+        "start_sample": 35840,
+        "end_sample": 46720
+      },
+      {
+        "word": "vigorous",
+        "start_sample": 46720,
+        "end_sample": 55840
+      },
+      {
+        "word": "growing",
+        "start_sample": 55840,
+        "end_sample": 63360
+      },
+      {
+        "word": "economy",
+        "start_sample": 63360,
+        "end_sample": 72160
+      },
+      {
+        "word": "that",
+        "start_sample": 72160,
+        "end_sample": 74880
+      },
+      {
+        "word": "provides",
+        "start_sample": 74880,
+        "end_sample": 84000
+      },
+      {
+        "word": "equal",
+        "start_sample": 84000,
+        "end_sample": 90400
+      },
+      {
+        "word": "opportunities",
+        "start_sample": 90400,
+        "end_sample": 102880
+      },
+      {
+        "word": "for",
+        "start_sample": 102880,
+        "end_sample": 104800
+      },
+      {
+        "word": "all",
+        "start_sample": 104800,
+        "end_sample": 110880
+      },
+      {
+        "word": "americans",
+        "start_sample": 110880,
+        "end_sample": 121760
+      },
+      {
+        "word": "with",
+        "start_sample": 130080,
+        "end_sample": 133120
+      },
+      {
+        "word": "no",
+        "start_sample": 133120,
+        "end_sample": 137760
+      },
+      {
+        "word": "barriers",
+        "start_sample": 137760,
+        "end_sample": 150400
+      },
+      {
+        "word": "born",
+        "start_sample": 150400,
+        "end_sample": 156480
+      },
+      {
+        "word": "of",
+        "start_sample": 156480,
+        "end_sample": 159040
+      },
+      {
+        "word": "bigotry",
+        "start_sample": 159040,
+        "end_sample": 166240
+      },
+      {
+        "word": "or",
+        "start_sample": 166240,
+        "end_sample": 168000
+      },
+      {
+        "word": "discrimination",
+        "start_sample": 168000,
+        "end_sample": 180640
+      }
+    ],
+    "asr_anchor_word_coverage": 0.8461538461538461,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "reagan_010"
+  },
+  {
+    "source_id": "obama",
+    "speaker_id": "barack_obama",
+    "split": "test",
+    "source_start_sample_16k": 2241280,
+    "source_end_sample_16k": 2406240,
+    "text": "Our health care is too costly; our schools fail too many; and each day brings further evidence that the ways we use energy strengthen our adversaries and threaten our planet.",
+    "words": [
+      {
+        "word": "our",
+        "start_sample": 800,
+        "end_sample": 3040
+      },
+      {
+        "word": "health",
+        "start_sample": 3040,
+        "end_sample": 7360
+      },
+      {
+        "word": "care",
+        "start_sample": 7360,
+        "end_sample": 14560
+      },
+      {
+        "word": "is",
+        "start_sample": 14560,
+        "end_sample": 17120
+      },
+      {
+        "word": "too",
+        "start_sample": 17120,
+        "end_sample": 20160
+      },
+      {
+        "word": "costly",
+        "start_sample": 20160,
+        "end_sample": 29600
+      },
+      {
+        "word": "our",
+        "start_sample": 29600,
+        "end_sample": 32480
+      },
+      {
+        "word": "schools",
+        "start_sample": 32480,
+        "end_sample": 41120
+      },
+      {
+        "word": "fail",
+        "start_sample": 41120,
+        "end_sample": 45280
+      },
+      {
+        "word": "too",
+        "start_sample": 45280,
+        "end_sample": 47680
+      },
+      {
+        "word": "many",
+        "start_sample": 47680,
+        "end_sample": 53760
+      },
+      {
+        "word": "and",
+        "start_sample": 64000,
+        "end_sample": 66400
+      },
+      {
+        "word": "each",
+        "start_sample": 66400,
+        "end_sample": 72640
+      },
+      {
+        "word": "day",
+        "start_sample": 72640,
+        "end_sample": 77440
+      },
+      {
+        "word": "brings",
+        "start_sample": 77440,
+        "end_sample": 82880
+      },
+      {
+        "word": "further",
+        "start_sample": 82880,
+        "end_sample": 87360
+      },
+      {
+        "word": "evidence",
+        "start_sample": 87360,
+        "end_sample": 94080
+      },
+      {
+        "word": "that",
+        "start_sample": 94080,
+        "end_sample": 96320
+      },
+      {
+        "word": "the",
+        "start_sample": 96320,
+        "end_sample": 97440
+      },
+      {
+        "word": "ways",
+        "start_sample": 97440,
+        "end_sample": 105280
+      },
+      {
+        "word": "we",
+        "start_sample": 105280,
+        "end_sample": 107360
+      },
+      {
+        "word": "use",
+        "start_sample": 107360,
+        "end_sample": 110560
+      },
+      {
+        "word": "energy",
+        "start_sample": 110560,
+        "end_sample": 116320
+      },
+      {
+        "word": "strengthen",
+        "start_sample": 116320,
+        "end_sample": 126880
+      },
+      {
+        "word": "our",
+        "start_sample": 131840,
+        "end_sample": 133440
+      },
+      {
+        "word": "adversaries",
+        "start_sample": 133440,
+        "end_sample": 150080
+      },
+      {
+        "word": "and",
+        "start_sample": 150080,
+        "end_sample": 152480
+      },
+      {
+        "word": "threaten",
+        "start_sample": 152480,
+        "end_sample": 156960
+      },
+      {
+        "word": "our",
+        "start_sample": 156960,
+        "end_sample": 158720
+      },
+      {
+        "word": "planet",
+        "start_sample": 158720,
+        "end_sample": 164160
+      }
+    ],
+    "asr_anchor_word_coverage": 0.7666666666666667,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "obama_011"
+  },
+  {
+    "source_id": "obama",
+    "speaker_id": "barack_obama",
+    "split": "test",
+    "source_start_sample_16k": 3545280,
+    "source_end_sample_16k": 3674080,
+    "text": "We remain a young nation, but in the words of Scripture, the time has come to set aside childish things.",
+    "words": [
+      {
+        "word": "we",
+        "start_sample": 800,
+        "end_sample": 2560
+      },
+      {
+        "word": "remain",
+        "start_sample": 2560,
+        "end_sample": 13920
+      },
+      {
+        "word": "a",
+        "start_sample": 18400,
+        "end_sample": 19840
+      },
+      {
+        "word": "young",
+        "start_sample": 19840,
+        "end_sample": 24480
+      },
+      {
+        "word": "nation",
+        "start_sample": 24480,
+        "end_sample": 30560
+      },
+      {
+        "word": "but",
+        "start_sample": 48800,
+        "end_sample": 50560
+      },
+      {
+        "word": "in",
+        "start_sample": 50560,
+        "end_sample": 51680
+      },
+      {
+        "word": "the",
+        "start_sample": 51680,
+        "end_sample": 52640
+      },
+      {
+        "word": "words",
+        "start_sample": 52640,
+        "end_sample": 59040
+      },
+      {
+        "word": "of",
+        "start_sample": 59040,
+        "end_sample": 60000
+      },
+      {
+        "word": "scripture",
+        "start_sample": 60000,
+        "end_sample": 68960
+      },
+      {
+        "word": "the",
+        "start_sample": 77760,
+        "end_sample": 79360
+      },
+      {
+        "word": "time",
+        "start_sample": 79360,
+        "end_sample": 86560
+      },
+      {
+        "word": "has",
+        "start_sample": 86560,
+        "end_sample": 91040
+      },
+      {
+        "word": "come",
+        "start_sample": 91040,
+        "end_sample": 95840
+      },
+      {
+        "word": "to",
+        "start_sample": 100960,
+        "end_sample": 102880
+      },
+      {
+        "word": "set",
+        "start_sample": 102880,
+        "end_sample": 106560
+      },
+      {
+        "word": "aside",
+        "start_sample": 106560,
+        "end_sample": 113280
+      },
+      {
+        "word": "childish",
+        "start_sample": 113280,
+        "end_sample": 120800
+      },
+      {
+        "word": "things",
+        "start_sample": 120800,
+        "end_sample": 128000
+      }
+    ],
+    "asr_anchor_word_coverage": 0.35,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "obama_012"
+  },
+  {
+    "source_id": "obama",
+    "speaker_id": "barack_obama",
+    "split": "test",
+    "source_start_sample_16k": 5220480,
+    "source_end_sample_16k": 5345920,
+    "text": "Time and again these men and women struggled and sacrificed and worked till their hands were raw so that we might live a better life.",
+    "words": [
+      {
+        "word": "time",
+        "start_sample": 800,
+        "end_sample": 7840
+      },
+      {
+        "word": "and",
+        "start_sample": 7840,
+        "end_sample": 12160
+      },
+      {
+        "word": "again",
+        "start_sample": 12160,
+        "end_sample": 18720
+      },
+      {
+        "word": "these",
+        "start_sample": 18720,
+        "end_sample": 23360
+      },
+      {
+        "word": "men",
+        "start_sample": 23360,
+        "end_sample": 27520
+      },
+      {
+        "word": "and",
+        "start_sample": 27520,
+        "end_sample": 30720
+      },
+      {
+        "word": "women",
+        "start_sample": 30720,
+        "end_sample": 36640
+      },
+      {
+        "word": "struggled",
+        "start_sample": 36640,
+        "end_sample": 47200
+      },
+      {
+        "word": "and",
+        "start_sample": 47200,
+        "end_sample": 50080
+      },
+      {
+        "word": "sacrificed",
+        "start_sample": 50080,
+        "end_sample": 63840
+      },
+      {
+        "word": "and",
+        "start_sample": 63840,
+        "end_sample": 66240
+      },
+      {
+        "word": "worked",
+        "start_sample": 66240,
+        "end_sample": 72000
+      },
+      {
+        "word": "till",
+        "start_sample": 72000,
+        "end_sample": 74720
+      },
+      {
+        "word": "their",
+        "start_sample": 74720,
+        "end_sample": 77280
+      },
+      {
+        "word": "hands",
+        "start_sample": 77280,
+        "end_sample": 82400
+      },
+      {
+        "word": "were",
+        "start_sample": 82400,
+        "end_sample": 84800
+      },
+      {
+        "word": "raw",
+        "start_sample": 84800,
+        "end_sample": 90880
+      },
+      {
+        "word": "so",
+        "start_sample": 100960,
+        "end_sample": 102720
+      },
+      {
+        "word": "that",
+        "start_sample": 102720,
+        "end_sample": 104160
+      },
+      {
+        "word": "we",
+        "start_sample": 104160,
+        "end_sample": 106880
+      },
+      {
+        "word": "might",
+        "start_sample": 106880,
+        "end_sample": 110560
+      },
+      {
+        "word": "live",
+        "start_sample": 110560,
+        "end_sample": 114560
+      },
+      {
+        "word": "a",
+        "start_sample": 114560,
+        "end_sample": 115680
+      },
+      {
+        "word": "better",
+        "start_sample": 115680,
+        "end_sample": 118880
+      },
+      {
+        "word": "life",
+        "start_sample": 118880,
+        "end_sample": 124640
+      }
+    ],
+    "asr_anchor_word_coverage": 0.52,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "obama_013"
+  },
+  {
+    "source_id": "obama",
+    "speaker_id": "barack_obama",
+    "split": "test",
+    "source_start_sample_16k": 5698080,
+    "source_end_sample_16k": 5815200,
+    "text": "Our minds are no less inventive, our goods and services no less needed than they were last week or last month or last year.",
+    "words": [
+      {
+        "word": "our",
+        "start_sample": 800,
+        "end_sample": 2720
+      },
+      {
+        "word": "minds",
+        "start_sample": 2720,
+        "end_sample": 9280
+      },
+      {
+        "word": "are",
+        "start_sample": 9280,
+        "end_sample": 10400
+      },
+      {
+        "word": "no",
+        "start_sample": 10400,
+        "end_sample": 12800
+      },
+      {
+        "word": "less",
+        "start_sample": 12800,
+        "end_sample": 16800
+      },
+      {
+        "word": "inventive",
+        "start_sample": 16800,
+        "end_sample": 25920
+      },
+      {
+        "word": "our",
+        "start_sample": 29760,
+        "end_sample": 32480
+      },
+      {
+        "word": "goods",
+        "start_sample": 32480,
+        "end_sample": 36800
+      },
+      {
+        "word": "and",
+        "start_sample": 36800,
+        "end_sample": 38560
+      },
+      {
+        "word": "services",
+        "start_sample": 38560,
+        "end_sample": 49440
+      },
+      {
+        "word": "no",
+        "start_sample": 54560,
+        "end_sample": 57280
+      },
+      {
+        "word": "less",
+        "start_sample": 57280,
+        "end_sample": 61120
+      },
+      {
+        "word": "needed",
+        "start_sample": 61120,
+        "end_sample": 67360
+      },
+      {
+        "word": "than",
+        "start_sample": 67360,
+        "end_sample": 69920
+      },
+      {
+        "word": "they",
+        "start_sample": 69920,
+        "end_sample": 71680
+      },
+      {
+        "word": "were",
+        "start_sample": 71680,
+        "end_sample": 75520
+      },
+      {
+        "word": "last",
+        "start_sample": 75520,
+        "end_sample": 81760
+      },
+      {
+        "word": "week",
+        "start_sample": 81760,
+        "end_sample": 87360
+      },
+      {
+        "word": "or",
+        "start_sample": 87360,
+        "end_sample": 90720
+      },
+      {
+        "word": "last",
+        "start_sample": 90720,
+        "end_sample": 96160
+      },
+      {
+        "word": "month",
+        "start_sample": 96160,
+        "end_sample": 102080
+      },
+      {
+        "word": "or",
+        "start_sample": 102080,
+        "end_sample": 105920
+      },
+      {
+        "word": "last",
+        "start_sample": 105920,
+        "end_sample": 112160
+      },
+      {
+        "word": "year",
+        "start_sample": 112160,
+        "end_sample": 116320
+      }
+    ],
+    "asr_anchor_word_coverage": 0.7083333333333334,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "obama_014"
+  },
+  {
+    "source_id": "obama",
+    "speaker_id": "barack_obama",
+    "split": "test",
+    "source_start_sample_16k": 6047680,
+    "source_end_sample_16k": 6173440,
+    "text": "Starting today, we must pick ourselves up, dust ourselves off, and begin again the work of remaking America.",
+    "words": [
+      {
+        "word": "starting",
+        "start_sample": 800,
+        "end_sample": 8160
+      },
+      {
+        "word": "today",
+        "start_sample": 8160,
+        "end_sample": 17280
+      },
+      {
+        "word": "we",
+        "start_sample": 24480,
+        "end_sample": 26880
+      },
+      {
+        "word": "must",
+        "start_sample": 26880,
+        "end_sample": 31680
+      },
+      {
+        "word": "pick",
+        "start_sample": 31680,
+        "end_sample": 36000
+      },
+      {
+        "word": "ourselves",
+        "start_sample": 36000,
+        "end_sample": 45440
+      },
+      {
+        "word": "up",
+        "start_sample": 45440,
+        "end_sample": 51680
+      },
+      {
+        "word": "dust",
+        "start_sample": 51680,
+        "end_sample": 57440
+      },
+      {
+        "word": "ourselves",
+        "start_sample": 57440,
+        "end_sample": 67360
+      },
+      {
+        "word": "off",
+        "start_sample": 67360,
+        "end_sample": 78400
+      },
+      {
+        "word": "and",
+        "start_sample": 78400,
+        "end_sample": 81600
+      },
+      {
+        "word": "begin",
+        "start_sample": 81600,
+        "end_sample": 88160
+      },
+      {
+        "word": "again",
+        "start_sample": 88160,
+        "end_sample": 96000
+      },
+      {
+        "word": "the",
+        "start_sample": 96000,
+        "end_sample": 96960
+      },
+      {
+        "word": "work",
+        "start_sample": 96960,
+        "end_sample": 107040
+      },
+      {
+        "word": "of",
+        "start_sample": 107040,
+        "end_sample": 109280
+      },
+      {
+        "word": "remaking",
+        "start_sample": 109280,
+        "end_sample": 117440
+      },
+      {
+        "word": "america",
+        "start_sample": 117440,
+        "end_sample": 124960
+      }
+    ],
+    "asr_anchor_word_coverage": 0.3333333333333333,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "obama_015"
+  },
+  {
+    "source_id": "obama",
+    "speaker_id": "barack_obama",
+    "split": "test",
+    "source_start_sample_16k": 6641280,
+    "source_end_sample_16k": 6762240,
+    "text": "We will restore science to its rightful place, and wield technology's wonders to raise health care's quality and lower its cost.",
+    "words": [
+      {
+        "word": "we",
+        "start_sample": 800,
+        "end_sample": 2400
+      },
+      {
+        "word": "will",
+        "start_sample": 2400,
+        "end_sample": 3840
+      },
+      {
+        "word": "restore",
+        "start_sample": 3840,
+        "end_sample": 11840
+      },
+      {
+        "word": "science",
+        "start_sample": 11840,
+        "end_sample": 19520
+      },
+      {
+        "word": "to",
+        "start_sample": 19520,
+        "end_sample": 21280
+      },
+      {
+        "word": "its",
+        "start_sample": 21280,
+        "end_sample": 23680
+      },
+      {
+        "word": "rightful",
+        "start_sample": 23680,
+        "end_sample": 29920
+      },
+      {
+        "word": "place",
+        "start_sample": 29920,
+        "end_sample": 36640
+      },
+      {
+        "word": "and",
+        "start_sample": 36640,
+        "end_sample": 39360
+      },
+      {
+        "word": "wield",
+        "start_sample": 45120,
+        "end_sample": 49440
+      },
+      {
+        "word": "technology's",
+        "start_sample": 49440,
+        "end_sample": 61120
+      },
+      {
+        "word": "wonders",
+        "start_sample": 61120,
+        "end_sample": 68960
+      },
+      {
+        "word": "to",
+        "start_sample": 68960,
+        "end_sample": 72640
+      },
+      {
+        "word": "raise",
+        "start_sample": 72640,
+        "end_sample": 79680
+      },
+      {
+        "word": "health",
+        "start_sample": 79680,
+        "end_sample": 84320
+      },
+      {
+        "word": "care's",
+        "start_sample": 84320,
+        "end_sample": 88480
+      },
+      {
+        "word": "quality",
+        "start_sample": 88480,
+        "end_sample": 95360
+      },
+      {
+        "word": "and",
+        "start_sample": 95360,
+        "end_sample": 103360
+      },
+      {
+        "word": "lower",
+        "start_sample": 103360,
+        "end_sample": 109280
+      },
+      {
+        "word": "its",
+        "start_sample": 109280,
+        "end_sample": 111520
+      },
+      {
+        "word": "cost",
+        "start_sample": 111520,
+        "end_sample": 120160
+      }
+    ],
+    "asr_anchor_word_coverage": 0.6666666666666666,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "obama_016"
+  },
+  {
+    "source_id": "obama",
+    "speaker_id": "barack_obama",
+    "split": "test",
+    "source_start_sample_16k": 7064320,
+    "source_end_sample_16k": 7203840,
+    "text": "Now, there are some who question the scale of our ambitions — who suggest that our system cannot tolerate too many big plans.",
+    "words": [
+      {
+        "word": "now",
+        "start_sample": 800,
+        "end_sample": 5120
+      },
+      {
+        "word": "there",
+        "start_sample": 17440,
+        "end_sample": 19680
+      },
+      {
+        "word": "are",
+        "start_sample": 19680,
+        "end_sample": 20960
+      },
+      {
+        "word": "some",
+        "start_sample": 20960,
+        "end_sample": 28320
+      },
+      {
+        "word": "who",
+        "start_sample": 28320,
+        "end_sample": 33440
+      },
+      {
+        "word": "question",
+        "start_sample": 33440,
+        "end_sample": 41120
+      },
+      {
+        "word": "the",
+        "start_sample": 41120,
+        "end_sample": 42080
+      },
+      {
+        "word": "scale",
+        "start_sample": 42080,
+        "end_sample": 47840
+      },
+      {
+        "word": "of",
+        "start_sample": 47840,
+        "end_sample": 49120
+      },
+      {
+        "word": "our",
+        "start_sample": 49120,
+        "end_sample": 51680
+      },
+      {
+        "word": "ambitions",
+        "start_sample": 51680,
+        "end_sample": 60960
+      },
+      {
+        "word": "who",
+        "start_sample": 79680,
+        "end_sample": 81440
+      },
+      {
+        "word": "suggest",
+        "start_sample": 81440,
+        "end_sample": 88320
+      },
+      {
+        "word": "that",
+        "start_sample": 88320,
+        "end_sample": 89920
+      },
+      {
+        "word": "our",
+        "start_sample": 89920,
+        "end_sample": 91680
+      },
+      {
+        "word": "system",
+        "start_sample": 91680,
+        "end_sample": 100960
+      },
+      {
+        "word": "cannot",
+        "start_sample": 107680,
+        "end_sample": 112800
+      },
+      {
+        "word": "tolerate",
+        "start_sample": 112800,
+        "end_sample": 120960
+      },
+      {
+        "word": "too",
+        "start_sample": 120960,
+        "end_sample": 122880
+      },
+      {
+        "word": "many",
+        "start_sample": 122880,
+        "end_sample": 126080
+      },
+      {
+        "word": "big",
+        "start_sample": 126080,
+        "end_sample": 129440
+      },
+      {
+        "word": "plans",
+        "start_sample": 129440,
+        "end_sample": 138720
+      }
+    ],
+    "asr_anchor_word_coverage": 0.36363636363636365,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "obama_017"
+  },
+  {
+    "source_id": "obama",
+    "speaker_id": "barack_obama",
+    "split": "test",
+    "source_start_sample_16k": 7463520,
+    "source_end_sample_16k": 7618880,
+    "text": "What the cynics fail to understand is that the ground has shifted beneath them — that the stale political arguments that have consumed us for so long no longer apply.",
+    "words": [
+      {
+        "word": "what",
+        "start_sample": 800,
+        "end_sample": 7840
+      },
+      {
+        "word": "the",
+        "start_sample": 7840,
+        "end_sample": 9120
+      },
+      {
+        "word": "cynics",
+        "start_sample": 9120,
+        "end_sample": 16000
+      },
+      {
+        "word": "fail",
+        "start_sample": 16000,
+        "end_sample": 22400
+      },
+      {
+        "word": "to",
+        "start_sample": 22400,
+        "end_sample": 23840
+      },
+      {
+        "word": "understand",
+        "start_sample": 23840,
+        "end_sample": 34880
+      },
+      {
+        "word": "is",
+        "start_sample": 34880,
+        "end_sample": 37280
+      },
+      {
+        "word": "that",
+        "start_sample": 37280,
+        "end_sample": 40160
+      },
+      {
+        "word": "the",
+        "start_sample": 40160,
+        "end_sample": 41120
+      },
+      {
+        "word": "ground",
+        "start_sample": 41120,
+        "end_sample": 47040
+      },
+      {
+        "word": "has",
+        "start_sample": 47040,
+        "end_sample": 49120
+      },
+      {
+        "word": "shifted",
+        "start_sample": 49120,
+        "end_sample": 56800
+      },
+      {
+        "word": "beneath",
+        "start_sample": 56800,
+        "end_sample": 62400
+      },
+      {
+        "word": "them",
+        "start_sample": 62400,
+        "end_sample": 64320
+      },
+      {
+        "word": "that",
+        "start_sample": 78880,
+        "end_sample": 80960
+      },
+      {
+        "word": "the",
+        "start_sample": 80960,
+        "end_sample": 82080
+      },
+      {
+        "word": "stale",
+        "start_sample": 82080,
+        "end_sample": 87520
+      },
+      {
+        "word": "political",
+        "start_sample": 87520,
+        "end_sample": 96160
+      },
+      {
+        "word": "arguments",
+        "start_sample": 96160,
+        "end_sample": 108160
+      },
+      {
+        "word": "that",
+        "start_sample": 108160,
+        "end_sample": 111200
+      },
+      {
+        "word": "have",
+        "start_sample": 111200,
+        "end_sample": 113280
+      },
+      {
+        "word": "consumed",
+        "start_sample": 113280,
+        "end_sample": 118400
+      },
+      {
+        "word": "us",
+        "start_sample": 118400,
+        "end_sample": 120320
+      },
+      {
+        "word": "for",
+        "start_sample": 120320,
+        "end_sample": 122560
+      },
+      {
+        "word": "so",
+        "start_sample": 122560,
+        "end_sample": 128160
+      },
+      {
+        "word": "long",
+        "start_sample": 128160,
+        "end_sample": 135200
+      },
+      {
+        "word": "no",
+        "start_sample": 135200,
+        "end_sample": 139200
+      },
+      {
+        "word": "longer",
+        "start_sample": 139200,
+        "end_sample": 145920
+      },
+      {
+        "word": "apply",
+        "start_sample": 145920,
+        "end_sample": 154560
+      }
+    ],
+    "asr_anchor_word_coverage": 0.6896551724137931,
+    "transcript_basis": "published source transcript; matched by automatic ASR anchors; listening review pending",
+    "family_id": "obama_018"
+  },
+  {
+    "source_id": "jfk_moon",
+    "speaker_id": "john_f_kennedy",
+    "split": "validation",
+    "source_start_sample_16k": 0,
+    "source_end_sample_16k": 128720,
+    "text": "we choose to go to the moon in this decade and do the other things not because they are easy but because they are hard",
+    "words": [
+      {
+        "word": "we",
+        "start_sample": 0,
+        "end_sample": 8320
+      },
+      {
+        "word": "choose",
+        "start_sample": 8320,
+        "end_sample": 14240
+      },
+      {
+        "word": "to",
+        "start_sample": 14240,
+        "end_sample": 16480
+      },
+      {
+        "word": "go",
+        "start_sample": 16480,
+        "end_sample": 20800
+      },
+      {
+        "word": "to",
+        "start_sample": 20800,
+        "end_sample": 22080
+      },
+      {
+        "word": "the",
+        "start_sample": 22080,
+        "end_sample": 24320
+      },
+      {
+        "word": "moon",
+        "start_sample": 24320,
+        "end_sample": 31840
+      },
+      {
+        "word": "in",
+        "start_sample": 31840,
+        "end_sample": 33440
+      },
+      {
+        "word": "this",
+        "start_sample": 33440,
+        "end_sample": 37440
+      },
+      {
+        "word": "decade",
+        "start_sample": 37440,
+        "end_sample": 46400
+      },
+      {
+        "word": "and",
+        "start_sample": 46400,
+        "end_sample": 49440
+      },
+      {
+        "word": "do",
+        "start_sample": 49440,
+        "end_sample": 52320
+      },
+      {
+        "word": "the",
+        "start_sample": 52320,
+        "end_sample": 54720
+      },
+      {
+        "word": "other",
+        "start_sample": 54720,
+        "end_sample": 58080
+      },
+      {
+        "word": "things",
+        "start_sample": 58080,
+        "end_sample": 72480
+      },
+      {
+        "word": "not",
+        "start_sample": 72480,
+        "end_sample": 77600
+      },
+      {
+        "word": "because",
+        "start_sample": 77600,
+        "end_sample": 86400
+      },
+      {
+        "word": "they",
+        "start_sample": 86400,
+        "end_sample": 89600
+      },
+      {
+        "word": "are",
+        "start_sample": 89600,
+        "end_sample": 92320
+      },
+      {
+        "word": "easy",
+        "start_sample": 92320,
+        "end_sample": 100000
+      },
+      {
+        "word": "but",
+        "start_sample": 100000,
+        "end_sample": 105600
+      },
+      {
+        "word": "because",
+        "start_sample": 105600,
+        "end_sample": 113440
+      },
+      {
+        "word": "they",
+        "start_sample": 113440,
+        "end_sample": 116160
+      },
+      {
+        "word": "are",
+        "start_sample": 116160,
+        "end_sample": 118240
+      },
+      {
+        "word": "hard",
+        "start_sample": 118240,
+        "end_sample": 128320
+      }
+    ],
+    "asr_anchor_word_coverage": null,
+    "transcript_basis": "canonical historical quotation adapted to NASA excerpt; automatic alignment; listening review pending",
+    "family_id": "jfk_moon_019"
+  },
+  {
+    "source_id": "jfk_moon",
+    "speaker_id": "john_f_kennedy",
+    "split": "validation",
+    "source_start_sample_16k": 136080,
+    "source_end_sample_16k": 312400,
+    "text": "because that goal will serve to organize and measure the best of our energies and skills because that challenge is one that we are willing to accept",
+    "words": [
+      {
+        "word": "because",
+        "start_sample": 400,
+        "end_sample": 8400
+      },
+      {
+        "word": "that",
+        "start_sample": 8400,
+        "end_sample": 14480
+      },
+      {
+        "word": "goal",
+        "start_sample": 14480,
+        "end_sample": 21840
+      },
+      {
+        "word": "will",
+        "start_sample": 33360,
+        "end_sample": 36560
+      },
+      {
+        "word": "serve",
+        "start_sample": 36560,
+        "end_sample": 43280
+      },
+      {
+        "word": "to",
+        "start_sample": 43280,
+        "end_sample": 44880
+      },
+      {
+        "word": "organize",
+        "start_sample": 44880,
+        "end_sample": 58640
+      },
+      {
+        "word": "and",
+        "start_sample": 58640,
+        "end_sample": 61360
+      },
+      {
+        "word": "measure",
+        "start_sample": 61360,
+        "end_sample": 67440
+      },
+      {
+        "word": "the",
+        "start_sample": 67440,
+        "end_sample": 69360
+      },
+      {
+        "word": "best",
+        "start_sample": 69360,
+        "end_sample": 86320
+      },
+      {
+        "word": "of",
+        "start_sample": 86320,
+        "end_sample": 88560
+      },
+      {
+        "word": "our",
+        "start_sample": 88560,
+        "end_sample": 91600
+      },
+      {
+        "word": "energies",
+        "start_sample": 91600,
+        "end_sample": 99120
+      },
+      {
+        "word": "and",
+        "start_sample": 99120,
+        "end_sample": 101680
+      },
+      {
+        "word": "skills",
+        "start_sample": 101680,
+        "end_sample": 120080
+      },
+      {
+        "word": "because",
+        "start_sample": 120080,
+        "end_sample": 127760
+      },
+      {
+        "word": "that",
+        "start_sample": 127760,
+        "end_sample": 133040
+      },
+      {
+        "word": "challenge",
+        "start_sample": 133040,
+        "end_sample": 141200
+      },
+      {
+        "word": "is",
+        "start_sample": 141200,
+        "end_sample": 144240
+      },
+      {
+        "word": "one",
+        "start_sample": 144240,
+        "end_sample": 150480
+      },
+      {
+        "word": "that",
+        "start_sample": 150480,
+        "end_sample": 153840
+      },
+      {
+        "word": "we",
+        "start_sample": 153840,
+        "end_sample": 155280
+      },
+      {
+        "word": "are",
+        "start_sample": 155280,
+        "end_sample": 155920
+      },
+      {
+        "word": "willing",
+        "start_sample": 155920,
+        "end_sample": 162000
+      },
+      {
+        "word": "to",
+        "start_sample": 162000,
+        "end_sample": 164080
+      },
+      {
+        "word": "accept",
+        "start_sample": 164080,
+        "end_sample": 175920
+      }
+    ],
+    "asr_anchor_word_coverage": null,
+    "transcript_basis": "canonical historical quotation adapted to NASA excerpt; automatic alignment; listening review pending",
+    "family_id": "jfk_moon_020"
+  },
+  {
+    "source_id": "jfk_return",
+    "speaker_id": "john_f_kennedy",
+    "split": "validation",
+    "source_start_sample_16k": 0,
+    "source_end_sample_16k": 173500,
+    "text": "i believe that this nation should commit itself to achieving the goal before this decade is out of landing a man on the moon and returning him safely to the earth",
+    "words": [
+      {
+        "word": "i",
+        "start_sample": 0,
+        "end_sample": 3200
+      },
+      {
+        "word": "believe",
+        "start_sample": 3200,
+        "end_sample": 10560
+      },
+      {
+        "word": "that",
+        "start_sample": 10560,
+        "end_sample": 12960
+      },
+      {
+        "word": "this",
+        "start_sample": 12960,
+        "end_sample": 16160
+      },
+      {
+        "word": "nation",
+        "start_sample": 16160,
+        "end_sample": 23200
+      },
+      {
+        "word": "should",
+        "start_sample": 23200,
+        "end_sample": 26560
+      },
+      {
+        "word": "commit",
+        "start_sample": 26560,
+        "end_sample": 31520
+      },
+      {
+        "word": "itself",
+        "start_sample": 31520,
+        "end_sample": 39200
+      },
+      {
+        "word": "to",
+        "start_sample": 48960,
+        "end_sample": 51040
+      },
+      {
+        "word": "achieving",
+        "start_sample": 51040,
+        "end_sample": 58560
+      },
+      {
+        "word": "the",
+        "start_sample": 58560,
+        "end_sample": 59840
+      },
+      {
+        "word": "goal",
+        "start_sample": 59840,
+        "end_sample": 72800
+      },
+      {
+        "word": "before",
+        "start_sample": 78720,
+        "end_sample": 85280
+      },
+      {
+        "word": "this",
+        "start_sample": 85280,
+        "end_sample": 88960
+      },
+      {
+        "word": "decade",
+        "start_sample": 88960,
+        "end_sample": 96000
+      },
+      {
+        "word": "is",
+        "start_sample": 96000,
+        "end_sample": 98240
+      },
+      {
+        "word": "out",
+        "start_sample": 98240,
+        "end_sample": 108160
+      },
+      {
+        "word": "of",
+        "start_sample": 112960,
+        "end_sample": 115200
+      },
+      {
+        "word": "landing",
+        "start_sample": 115200,
+        "end_sample": 122240
+      },
+      {
+        "word": "a",
+        "start_sample": 122240,
+        "end_sample": 122880
+      },
+      {
+        "word": "man",
+        "start_sample": 122880,
+        "end_sample": 128000
+      },
+      {
+        "word": "on",
+        "start_sample": 128000,
+        "end_sample": 129440
+      },
+      {
+        "word": "the",
+        "start_sample": 129440,
+        "end_sample": 130560
+      },
+      {
+        "word": "moon",
+        "start_sample": 130560,
+        "end_sample": 138400
+      },
+      {
+        "word": "and",
+        "start_sample": 138400,
+        "end_sample": 140320
+      },
+      {
+        "word": "returning",
+        "start_sample": 140320,
+        "end_sample": 148160
+      },
+      {
+        "word": "him",
+        "start_sample": 148160,
+        "end_sample": 152960
+      },
+      {
+        "word": "safely",
+        "start_sample": 152960,
+        "end_sample": 160640
+      },
+      {
+        "word": "to",
+        "start_sample": 160640,
+        "end_sample": 162560
+      },
+      {
+        "word": "the",
+        "start_sample": 162560,
+        "end_sample": 165920
+      },
+      {
+        "word": "earth",
+        "start_sample": 165920,
+        "end_sample": 173440
+      }
+    ],
+    "asr_anchor_word_coverage": null,
+    "transcript_basis": "canonical historical quotation adapted to NASA excerpt; automatic alignment; listening review pending",
+    "family_id": "jfk_return_021"
+  }
+]

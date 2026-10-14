@@ -1,0 +1,182 @@
+{
+  "scope": "Digital edits only; no human speech-quality accuracy is implied.",
+  "thresholds": {
+    "pause_excess_s": 0.25,
+    "quiet_db": -6.0,
+    "rush_ratio": 0.82,
+    "drag_ratio": 1.22
+  },
+  "splits": {
+    "train": {
+      "clips": 130,
+      "positive_clips": 120,
+      "type_recall": 0.75,
+      "localization_recall_iou_0_5": 0.525,
+      "event_precision_iou_0_5": 0.3772,
+      "event_f1_iou_0_5": 0.439,
+      "mean_best_same_type_iou": 0.4943,
+      "mean_onset_error_s_localized": 0.222,
+      "mean_offset_error_s_localized": 0.226,
+      "false_positive_events": 104,
+      "base_clips_with_false_event": 0,
+      "by_type": {
+        "pause": {
+          "n": 30,
+          "type_recall": 1.0,
+          "localization_recall_iou_0_5": 0.933
+        },
+        "quiet": {
+          "n": 30,
+          "type_recall": 0.367,
+          "localization_recall_iou_0_5": 0.267
+        },
+        "rush": {
+          "n": 30,
+          "type_recall": 0.8,
+          "localization_recall_iou_0_5": 0.433
+        },
+        "drag": {
+          "n": 30,
+          "type_recall": 0.833,
+          "localization_recall_iou_0_5": 0.467
+        }
+      },
+      "by_severity": {
+        "minor": {
+          "n": 40,
+          "localization_recall_iou_0_5": 0.225
+        },
+        "moderate": {
+          "n": 40,
+          "localization_recall_iou_0_5": 0.575
+        },
+        "severe": {
+          "n": 40,
+          "localization_recall_iou_0_5": 0.775
+        }
+      },
+      "localization_recall_iou_0_3": 0.65,
+      "collar_200ms_recall": 0.3417,
+      "collar_200ms_precision": 0.2455
+    },
+    "validation": {
+      "clips": 39,
+      "positive_clips": 36,
+      "type_recall": 0.8056,
+      "localization_recall_iou_0_5": 0.4722,
+      "event_precision_iou_0_5": 0.2237,
+      "event_f1_iou_0_5": 0.3036,
+      "mean_best_same_type_iou": 0.4951,
+      "mean_onset_error_s_localized": 0.276,
+      "mean_offset_error_s_localized": 0.042,
+      "false_positive_events": 59,
+      "base_clips_with_false_event": 0,
+      "by_type": {
+        "pause": {
+          "n": 9,
+          "type_recall": 1.0,
+          "localization_recall_iou_0_5": 1.0
+        },
+        "quiet": {
+          "n": 9,
+          "type_recall": 0.333,
+          "localization_recall_iou_0_5": 0.111
+        },
+        "rush": {
+          "n": 9,
+          "type_recall": 0.889,
+          "localization_recall_iou_0_5": 0.444
+        },
+        "drag": {
+          "n": 9,
+          "type_recall": 1.0,
+          "localization_recall_iou_0_5": 0.333
+        }
+      },
+      "by_severity": {
+        "minor": {
+          "n": 12,
+          "localization_recall_iou_0_5": 0.25
+        },
+        "moderate": {
+          "n": 12,
+          "localization_recall_iou_0_5": 0.5
+        },
+        "severe": {
+          "n": 12,
+          "localization_recall_iou_0_5": 0.667
+        }
+      },
+      "localization_recall_iou_0_3": 0.6111,
+      "collar_200ms_recall": 0.3889,
+      "collar_200ms_precision": 0.1842
+    },
+    "test": {
+      "clips": 104,
+      "positive_clips": 96,
+      "type_recall": 0.7604,
+      "localization_recall_iou_0_5": 0.5521,
+      "event_precision_iou_0_5": 0.3333,
+      "event_f1_iou_0_5": 0.4157,
+      "mean_best_same_type_iou": 0.5156,
+      "mean_onset_error_s_localized": 0.226,
+      "mean_offset_error_s_localized": 0.201,
+      "false_positive_events": 106,
+      "base_clips_with_false_event": 0,
+      "by_type": {
+        "pause": {
+          "n": 24,
+          "type_recall": 0.958,
+          "localization_recall_iou_0_5": 0.958
+        },
+        "quiet": {
+          "n": 24,
+          "type_recall": 0.458,
+          "localization_recall_iou_0_5": 0.292
+        },
+        "rush": {
+          "n": 24,
+          "type_recall": 0.833,
+          "localization_recall_iou_0_5": 0.5
+        },
+        "drag": {
+          "n": 24,
+          "type_recall": 0.792,
+          "localization_recall_iou_0_5": 0.458
+        }
+      },
+      "by_severity": {
+        "minor": {
+          "n": 32,
+          "localization_recall_iou_0_5": 0.219
+        },
+        "moderate": {
+          "n": 32,
+          "localization_recall_iou_0_5": 0.656
+        },
+        "severe": {
+          "n": 32,
+          "localization_recall_iou_0_5": 0.781
+        }
+      },
+      "localization_recall_iou_0_3": 0.6771,
+      "collar_200ms_recall": 0.3542,
+      "collar_200ms_precision": 0.2138,
+      "family_bootstrap_95_ci": {
+        "recall": [
+          0.4062,
+          0.6562
+        ],
+        "precision": [
+          0.2402,
+          0.4524
+        ],
+        "f1": [
+          0.3066,
+          0.5273
+        ]
+      }
+    }
+  },
+  "family_bootstrap_note": "Percentile interval from 2,000 bootstrap draws resampling the eight held-out passage families; clips within each family remain together."
+}

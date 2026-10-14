@@ -1,0 +1,20 @@
+{
+  "evidence": "D:\\TrackC_MFA_Colab (1).ipynb",
+  "notebook_sha256": "4C588187AC2155165304637D58781B8595DAB8C7E7E6DE7EBA6D2125D963FFAD",
+  "runtime": "Google Colab",
+  "condacolab_miniforge_installer": "26.3.2-3",
+  "mfa_requested_pin": "3.4.3",
+  "mfa_version_printed_in_saved_output": null,
+  "acoustic_model_name": "english_mfa",
+  "acoustic_model_revision": null,
+  "acoustic_model_sha256": null,
+  "dictionary_name": "english_us_mfa",
+  "dictionary_revision": null,
+  "dictionary_sha256": null,
+  "validation_command": "mfa validate /content/trackc/alignment_mfa/corpus english_us_mfa --acoustic_model_path english_mfa",
+  "validation_returncode": 0,
+  "alignment_command": "mfa align /content/trackc/alignment_mfa/corpus english_us_mfa english_mfa /content/trackc/alignment_mfa/raw --output_format long_textgrid --clean",
+  "alignment_returncode": 0,
+  "textgrid_count_reported_by_notebook": 273,
+  "note": "Saved notebook output confirms successful execution, but does not retain exact installed model revisions or hashes."
+}

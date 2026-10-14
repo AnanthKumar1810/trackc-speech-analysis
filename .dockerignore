@@ -1,0 +1,9 @@
+.git
+.deps
+.pip-cache
+chrome-print-profile
+edge-print-profile
+human_pilot
+real_evaluation
+__pycache__
+*.pyc

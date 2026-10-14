@@ -1,0 +1,25 @@
+{
+  "families": 21,
+  "wav_files": 273,
+  "pairs": 252,
+  "speakers": 3,
+  "baseline_minutes": 3.4443125,
+  "total_audio_minutes": 46.18300833333333,
+  "splits": {
+    "train": {
+      "families": 10,
+      "wav_files": 130,
+      "pairs": 120
+    },
+    "validation": {
+      "families": 3,
+      "wav_files": 39,
+      "pairs": 36
+    },
+    "test": {
+      "families": 8,
+      "wav_files": 104,
+      "pairs": 96
+    }
+  }
+}

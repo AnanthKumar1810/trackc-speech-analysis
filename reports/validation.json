@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "check_counts": {
+    "unique_clip_ids": 1,
+    "wav_format": 273,
+    "duration": 273,
+    "audio_checksum": 273,
+    "canonical_word_coverage": 273,
+    "word_bounds": 273,
+    "word_monotonicity": 273,
+    "no_digital_clipping": 273,
+    "audible_energy": 273,
+    "feature_dimensions": 273,
+    "provenance_flags": 273,
+    "original_source_hash": 4,
+    "reference_source_crop": 21,
+    "unaltered_outside_edit": 252,
+    "operator_reconstruction": 252,
+    "exact_silence": 63,
+    "word_time_mapping": 252,
+    "measured_gain_db": 63,
+    "pace_sample_count": 126,
+    "pair_consistency": 252,
+    "split_disjoint_speaker_id": 1,
+    "split_disjoint_source_id": 1,
+    "split_disjoint_family_id": 1,
+    "split_disjoint_normalized_text_sha256": 1,
+    "split_disjoint_audio_sha256": 1,
+    "cross_split_text_5gram_similarity": 134,
+    "source_crop_nonoverlap": 4,
+    "split_file_membership": 3,
+    "balanced_family_operators": 21,
+    "phase_vocoder_tone_pitch": 4
+  },
+  "total_checks": 4187,
+  "errors": [],
+  "limitations": [
+    "Machine validation does not certify words match the spoken audio.",
+    "The requesting user reported positive general listening feedback; detailed per-clip naturalness ratings and timing corrections remain unrecorded.",
+    "No claim of zero conceivable leakage: tested speaker/source/family/exact-audio/exact-text and 5-gram overlap; source channel and era remain confounded with split.",
+    "Pace word times are linear estimates inside phase-vocoder edits, not newly aligned ground truth."
+  ],
+  "cross_split_nonzero_text_similarity": [],
+  "independent_tone_pitch_tests": [
+    {
+      "rate": 0.52,
+      "measured_hz": 139.87277972817964
+    },
+    {
+      "rate": 0.9,
+      "measured_hz": 139.9416909620991
+    },
+    {
+      "rate": 1.12,
+      "measured_hz": 140.00244190305645
+    },
+    {
+      "rate": 1.7,
+      "measured_hz": 140.31300593631948
+    }
+  ]
+}

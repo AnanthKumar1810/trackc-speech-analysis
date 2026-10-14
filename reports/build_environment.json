@@ -1,0 +1,11 @@
+{
+  "python": "3.13.15",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "soundfile": "0.14.0"
+  },
+  "seed": "none; deterministic operations",
+  "generation": "offline source decoding + frozen source crops/estimated word alignments + exact signal operations"
+}

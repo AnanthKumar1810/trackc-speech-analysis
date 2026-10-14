@@ -1,0 +1,206 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 3 /Kids [5 0 R 7 0 R 9 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 3386 >>
+stream
+BT /F1 10.5 Tf 50 790 Td 14 TL
+(Track C technical report - 14 October 2026) Tj T*
+() Tj T*
+(Track C: contrastive speech analysis) Tj T*
+() Tj T*
+(Technical report ∑ 14 October 2026 ∑ Controlled digital edits and a private natural-speech) Tj T*
+(pilot) Tj T*
+() Tj T*
+(Problem and output) Tj T*
+() Tj T*
+(The system compares a reference reading and a same-transcript take, estimates word) Tj T*
+(boundaries, extracts local acoustic measurements, marks candidate deviations on the take) Tj T*
+(timeline, and displays a reference-relative operational score. It targets pauses,) Tj T*
+(recorded-level drops, locally faster words and locally slower words. Candidate events) Tj T*
+(include start/end times, measured cause and an edit-strength-like severity. They are not) Tj T*
+(human-rated rhetorical quality judgments.) Tj T*
+() Tj T*
+(Data and provenance) Tj T*
+() Tj T*
+(Twenty-one archival speech excerpts from Reagan, Kennedy and Obama are candidate references.) Tj T*
+(Each has 12 deliberately modified variants: four operators at three strengths. The 273) Tj T*
+(released WAVs include 252 digital variants. Audio is 16-kHz mono PCM16. Exact half-open edit) Tj T*
+(intervals and source hashes are stored in the manifest and labels. All references are) Tj T*
+(genuine archival speech crops; the altered versions are synthetic edits of those crops,) Tj T*
+(never authentic mistakes by the speakers. RIGHTS.md lists per-source reuse evidence and) Tj T*
+(limits. No Windows SAPI audio is included.) Tj T*
+() Tj T*
+(Train, validation and test are separated by speaker/source and whole passage family: Reagan) Tj T*
+(130 clips, Kennedy 39, Obama 104. Different eras, microphones and venues are confounded with) Tj T*
+(split. The 22 original recordings from four local participants are private development) Tj T*
+(material with no recorded redistribution consent and are excluded from the public package.) Tj T*
+(Their instructions are not verified acoustic ground truth.) Tj T*
+() Tj T*
+(Alignment and acoustic features) Tj T*
+() Tj T*
+(Offline archival word alignment uses imported MFA TextGrids for all 273 clips. The 170) Tj T*
+(review flags mean disagreement with an older automatic aligner over 100 ms; they are not) Tj T*
+(verified MFA errors. No human boundary accuracy is known. A live take uses PocketSphinx) Tj T*
+(forced alignment when installed, otherwise a bounded MFCC dynamic-time-warping transfer of) Tj T*
+(the reference word times. The fallback abstains for duration outliers, collapsed words,) Tj T*
+(nonmonotonic mappings or high normalized path cost. It cannot verify that the words were) Tj T*
+(actually spoken; transcript entry and an explicit listener confirmation gate that feedback.) Tj T*
+() Tj T*
+(Frames use a 40-ms window and 20-ms hop. Measurements include log-FFT energy, 13 MFCCs,) Tj T*
+(estimated F0 and relative pitch in semitones, RMS level, spectral centroid and zero-crossing) Tj T*
+(rate. Per-word durations and energy are compared at aligned word positions; interword gap) Tj T*
+(excess measures pauses. Uncertain alignment and microphone gain limit interpretation.) Tj T*
+() Tj T*
+(Detector and scoring) Tj T*
+() Tj T*
+(Predicted candidate intervals) Tj T*
+() Tj T*
+(Inference takes only the two audio signals, their estimated word boundaries and an explicit) Tj T*
+ET
+BT /F1 8 Tf 50 35 Td (Track C technical report | 14 October 2026 | page 1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 3430 >>
+stream
+BT /F1 10.5 Tf 50 790 Td 14 TL
+(same-setup flag. It never reads a clip ID, flaw label, intended take or programmed edit) Tj T*
+(interval. For word i, the duration ratio is take duration/reference duration; the level) Tj T*
+(difference is 10 log10\(mean take frame power/mean reference frame power\). For adjacent) Tj T*
+(words, pause excess is take interword gap minus nonnegative reference gap. Threshold) Tj T*
+(crossings generate word or gap intervals, and same-type neighbors within 120 ms merge.) Tj T*
+() Tj T*
+(Event | Train-selected threshold | Cause shown in dashboard) Tj T*
+() Tj T*
+(Pause | Gap excess >=0.25 s | Seconds longer than reference gap) Tj T*
+() Tj T*
+(Quiet local level | Clip-relative difference <-6 dB | Within-clip word energy change) Tj T*
+() Tj T*
+(Rush | Tempo-normalized duration ratio <0.82 | Locally shorter word duration) Tj T*
+() Tj T*
+(Drag | Tempo-normalized duration ratio >1.22 | Locally longer word duration) Tj T*
+() Tj T*
+(The duration ratio is divided by the pair's median word-duration ratio, and word level) Tj T*
+(change is centered by each clip's median energy. This reduces uniform speaker-rate and gain) Tj T*
+(differences while retaining localized deviations. Uniform whole-clip changes are shown) Tj T*
+(separately and cannot be localized by these rules. The four thresholds were selected by a) Tj T*
+(144-point grid search on the Reagan training speaker, balancing overall event F1 and macro) Tj T*
+(recall across flaw/severity groups at interval intersection-over-union \(IoU\) >=0.5. Kennedy) Tj T*
+(and Obama were not used for threshold selection.) Tj T*
+() Tj T*
+(Transparent rubric) Tj T*
+() Tj T*
+(Three 0-10 operational dimensions cover pacing, pauses and local level. Merged events are) Tj T*
+(scored by unique affected words with burden 1, 2 or 3 for minor, moderate or severe; this) Tj T*
+(avoids multiplying a single displayed span by its number of word events. Pause score falls) Tj T*
+(by 3 points per cumulative second of excess pause. The combined score is the mean of the) Tj T*
+(three available dimensions. It is not a human preference score, speaking skill rating or) Tj T*
+(MOS. Transcript or alignment failure withholds word-level measurements. Appropriate) Tj T*
+(rhetorical pauses may be flagged.) Tj T*
+() Tj T*
+(Dashboard) Tj T*
+() Tj T*
+(The interactive evaluation.html page overlays reference and take curves by transcript word) Tj T*
+(position, highlights predicted regions in orange and archive edit intervals separately in) Tj T*
+(blue, and lists each explanation. It accepts a take and transcript for a matching archive) Tj T*
+(passage. The public pair.html page accepts two arbitrary recordings for coarse activity,) Tj T*
+(pause and level comparison; it does not claim word-level localization. Both pages use the) Tj T*
+(local server. The human.html page and private pilot audio are excluded from the public) Tj T*
+(package.) Tj T*
+() Tj T*
+(Evaluation, limits and reproduction) Tj T*
+() Tj T*
+(Held-out digital-edit results) Tj T*
+() Tj T*
+(One ground-truth edit exists per non-reference clip. A predicted event counts as localized) Tj T*
+(only when its type matches and its interval IoU with the exact edit is at least 0.5. Event) Tj T*
+(precision uses all predicted intervals; recall uses all labeled edits. This makes extra) Tj T*
+(detections visible.) Tj T*
+ET
+BT /F1 8 Tf 50 35 Td (Track C technical report | 14 October 2026 | page 2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 2665 >>
+stream
+BT /F1 10.5 Tf 50 790 Td 14 TL
+() Tj T*
+(Split | Labeled edits | Type present | IoU>=0.5 recall | Event precision | Event F1) Tj T*
+() Tj T*
+(Train / Reagan | 120 | 75.0% | 52.5% | 37.7% | 43.9%) Tj T*
+() Tj T*
+(Validation / Kennedy | 36 | 80.6% | 47.2% | 22.4% | 30.4%) Tj T*
+() Tj T*
+(Test / Obama | 96 | 76.0% | 55.2% | 33.3% | 41.6%) Tj T*
+() Tj T*
+(On the test speaker, pause localization reached 23/24, quiet 7/24, rush 12/24 and drag) Tj T*
+(11/24. There were 106 extra or insufficient-overlap predicted intervals. Mean best same-type) Tj T*
+(IoU was 0.516. Mean onset and offset errors among localized events were 0.226 s and 0.201 s.) Tj T*
+(These numbers are controlled digital-edit localization only. The older whole-clip model's) Tj T*
+(97.1% digital edit-type accuracy is a different task and does not measure speaking-quality) Tj T*
+(accuracy.) Tj T*
+() Tj T*
+(Limits and remaining human validation) Tj T*
+() Tj T*
+(The detector has low precision, especially on Kennedy, and word-alignment errors can create) Tj T*
+(misleading regions. Quiet events are only recorded-energy differences; automatic gain) Tj T*
+(control and microphone changes can reverse their meaning. The same-reference archival) Tj T*
+(variants are far easier than unrelated natural performances. There is no verified) Tj T*
+(natural-speech accuracy, human severity calibration, independent transcript audit or) Tj T*
+(measured word-boundary error. Do not present this as a reliable judge of people or public) Tj T*
+(speakers.) Tj T*
+() Tj T*
+(Reproduction) Tj T*
+() Tj T*
+(Install requirements.txt, run python src/build.py and python src/validate.py; use the) Tj T*
+(supplied MFA alignments; run python -m unittest discover -s src -p 'test_*.py', python) Tj T*
+(src/tune_localizer.py, python src/evaluate_localizer.py, python src/make_viewer_data.py, and) Tj T*
+(python src/serve.py. Open http://127.0.0.1:8765/evaluation.html or /pair.html. Arbitrary) Tj T*
+(pair comparison reports coarse speech activity, pauses and level; word-level localization is) Tj T*
+(limited to aligned same-transcript pairs. Dataset hashes, edit labels, split manifests,) Tj T*
+(event predictions, thresholds, test metrics and code are included. Unit tests and structural) Tj T*
+(validation are separate from perceptual validation.) Tj T*
+() Tj T*
+(References: official Track C problem statement and submission guide supplied for the) Tj T*
+(hackathon; MFA documentation; DTW implementation and source/rights links recorded in) Tj T*
+(RIGHTS.md. The user handles the required submission video separately.) Tj T*
+() Tj T*
+ET
+BT /F1 8 Tf 50 35 Td (Track C technical report | 14 October 2026 | page 3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000203 00000 n 
+0000003641 00000 n 
+0000003767 00000 n 
+0000007249 00000 n 
+0000007375 00000 n 
+0000010092 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+10218
+%%EOF

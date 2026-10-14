@@ -1,0 +1,13 @@
+{
+  "review_http_status": 200,
+  "upload_self_reference_status": "automatic comparison; not a speaking-quality rating",
+  "returned_words": 33,
+  "duration_ratio": 1.0,
+  "mismatched_transcript_rejected": true,
+  "browser": "Chrome",
+  "reference_and_variant_audio_controls_rendered": true,
+  "variant_selection_changes_causal_explanation": true,
+  "responsive_layout_inspected": true,
+  "browser_audio_elements_loaded_duration": true,
+  "human_audio_listening_performed": false
+}

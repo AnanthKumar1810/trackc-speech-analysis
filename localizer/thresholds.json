@@ -1,0 +1,15 @@
+{
+  "selection": "Train-only grid search on Reagan; maximize equal blend of micro event F1 and macro recall over flaw type × severity at IoU >= 0.5. Validation/test are not used.",
+  "grid_size": 144,
+  "thresholds": {
+    "pause_excess_s": 0.25,
+    "quiet_db": -6.0,
+    "rush_ratio": 0.82,
+    "drag_ratio": 1.22
+  },
+  "train_objective": 0.482,
+  "train_f1": 0.439,
+  "train_precision": 0.3772,
+  "train_recall": 0.525,
+  "train_macro_severity_recall": 0.525
+}

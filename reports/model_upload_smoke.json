@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "test_kind": "Local analyze() with ASR guard and explicit simulated transcript confirmation on each same-script WAV; no browser or network needed",
+  "cases": [
+    {
+      "clip_id": "reagan_001_base",
+      "true_edit_type": "none",
+      "model_edit_type": "none",
+      "word_count": 33,
+      "asr_status": "needs_transcript_review",
+      "guard_withheld_word_feedback": true,
+      "upload_alignment_succeeded": true
+    },
+    {
+      "clip_id": "reagan_001_pause_moderate",
+      "true_edit_type": "pause",
+      "model_edit_type": "pause",
+      "word_count": 33,
+      "asr_status": "needs_transcript_review",
+      "guard_withheld_word_feedback": true,
+      "upload_alignment_succeeded": true
+    },
+    {
+      "clip_id": "reagan_001_quiet_moderate",
+      "true_edit_type": "quiet",
+      "model_edit_type": "quiet",
+      "word_count": 33,
+      "asr_status": "needs_transcript_review",
+      "guard_withheld_word_feedback": true,
+      "upload_alignment_succeeded": true
+    },
+    {
+      "clip_id": "reagan_001_rush_moderate",
+      "true_edit_type": "rush",
+      "model_edit_type": "rush",
+      "word_count": 33,
+      "asr_status": "needs_transcript_review",
+      "guard_withheld_word_feedback": true,
+      "upload_alignment_succeeded": true
+    },
+    {
+      "clip_id": "reagan_001_drag_moderate",
+      "true_edit_type": "drag",
+      "model_edit_type": "drag",
+      "word_count": 33,
+      "asr_status": "needs_transcript_review",
+      "guard_withheld_word_feedback": true,
+      "upload_alignment_succeeded": true
+    }
+  ],
+  "limitation": "The test confirmation is simulated for pipeline coverage, not a human review. Only included digital clips; no independently recorded participant was evaluated."
+}

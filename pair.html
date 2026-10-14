@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Track C | Compare two recordings</title>
+<style>
+body{font:16px/1.5 system-ui;background:#101827;color:#e8eef7;margin:0}main{max-width:900px;margin:auto;padding:30px}section{background:#1d2a3c;border-radius:12px;padding:20px;margin:16px 0}label{display:block;margin:12px 0}input,textarea,button{font:inherit;background:#111c2c;color:white;border:1px solid #60718b;border-radius:6px;padding:9px}button{background:#176a70;cursor:pointer}textarea{width:100%;box-sizing:border-box}audio{width:100%}a{color:#77dbdb}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#101827;padding:14px;border-radius:8px}.muted{color:#bdc9db}#status{min-height:24px}
+</style>
+<main><h1>Compare two recordings</h1>
+<p class="muted">Upload a reference and a new take of the same passage. Audio is processed by this local app. It estimates speech timing, longer pauses and recorded level. It does not produce word-level locations or a validated speaking-quality score.</p>
+<section><label>Reference audio (WAV, OGG, MP3, or MP4)<input id="reference" type="file" accept="audio/*,video/mp4,.ogg,.wav,.mp3,.m4a"></label>
+<label>New take<input id="take" type="file" accept="audio/*,video/mp4,.ogg,.wav,.mp3,.m4a"></label>
+<label><input id="sameSpeaker" type="checkbox"> Both recordings are from the same speaker</label>
+<label><input id="sameWords" type="checkbox"> I listened and confirmed both recordings contain the same words</label>
+<label><input id="sameSetup" type="checkbox"> The microphone position and recording settings were comparable</label>
+<label><input id="runASR" type="checkbox"> Also run an automatic transcript check (slower; transcript is only a draft)</label>
+<label>Expected words, if checking the transcript<textarea id="text" rows="4"></textarea></label>
+<button id="run">Compare on this computer</button><p id="status" role="status"></p></section>
+<section><audio id="audioA" controls></audio><audio id="audioB" controls></audio><h2>Measurements</h2><pre id="result">Results will appear here.</pre></section>
+<p><a href="evaluation.html">Open the aligned archive evaluator</a> · <a href="review.html">Browse the dataset</a></p></main>
+<script>
+const $=id=>document.getElementById(id);
+async function toBase64(file){const bytes=new Uint8Array(await file.arrayBuffer());let binary='';for(let i=0;i<bytes.length;i+=8192)binary+=String.fromCharCode(...bytes.subarray(i,i+8192));return btoa(binary)}
+$('run').onclick=async()=>{const a=$('reference').files[0],b=$('take').files[0];if(!a||!b){$('status').textContent='Choose both recordings first.';return}if(location.protocol==='file:'){$('status').textContent='Start the local app with python src/serve.py, then open http://127.0.0.1:8765/pair.html';return}if($('runASR').checked&&!$('text').value.trim()){$('status').textContent='Enter the expected words for the optional transcript check.';return}try{$('status').textContent='Measuring both recordings locally…';$('audioA').src=URL.createObjectURL(a);$('audioB').src=URL.createObjectURL(b);const body={reference_audio_base64:await toBase64(a),audio_base64:await toBase64(b),same_speaker_confirmed:$('sameSpeaker').checked,same_words_confirmed:$('sameWords').checked,same_setup_confirmed:$('sameSetup').checked,check_transcript:$('runASR').checked,transcript:$('text').value};const response=await fetch('/api/compare-pair',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});const data=await response.json();if(data.error)throw Error(data.error);$('result').textContent=JSON.stringify(data,null,2);$('status').textContent='Done. Review the audio and treat detected pauses and level differences as candidates.'}catch(e){$('status').textContent=e.message}};
+</script></html>

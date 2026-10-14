@@ -1,0 +1,1237 @@
+{
+  "scope": "Global nuisance negative controls on unedited archive bases; not cross-speaker validation.",
+  "method": "Every source clip is compared with a globally transformed version of itself. No threshold is tuned on these results.",
+  "limits": [
+    "Phone-band filtering is used as a codec/channel proxy; MP3 encoding was not tested.",
+    "Local flaw preservation under nuisance transformations is not measured in this report.",
+    "Synthetic global pitch changes do not establish robustness to a new speaker."
+  ],
+  "summary": {
+    "gain_minus_6db": {
+      "clips": 21,
+      "clips_with_any_false_event": 0,
+      "false_events": 0,
+      "mean_false_events_per_clip": 0.0
+    },
+    "gain_plus_6db": {
+      "clips": 21,
+      "clips_with_any_false_event": 0,
+      "false_events": 0,
+      "mean_false_events_per_clip": 0.0
+    },
+    "phone_band_300_3400hz": {
+      "clips": 21,
+      "clips_with_any_false_event": 0,
+      "false_events": 0,
+      "mean_false_events_per_clip": 0.0
+    },
+    "pitch_minus_3st": {
+      "clips": 21,
+      "clips_with_any_false_event": 0,
+      "false_events": 0,
+      "mean_false_events_per_clip": 0.0
+    },
+    "pitch_plus_3st": {
+      "clips": 21,
+      "clips_with_any_false_event": 0,
+      "false_events": 0,
+      "mean_false_events_per_clip": 0.0
+    },
+    "speed_minus_10pct": {
+      "clips": 21,
+      "clips_with_any_false_event": 0,
+      "false_events": 0,
+      "mean_false_events_per_clip": 0.0
+    },
+    "speed_plus_10pct": {
+      "clips": 21,
+      "clips_with_any_false_event": 0,
+      "false_events": 0,
+      "mean_false_events_per_clip": 0.0
+    },
+    "stationary_noise_25db_snr": {
+      "clips": 21,
+      "clips_with_any_false_event": 0,
+      "false_events": 0,
+      "mean_false_events_per_clip": 0.0
+    }
+  },
+  "per_clip": [
+    {
+      "clip_id": "reagan_001_base",
+      "split": "train",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_001_base",
+      "split": "train",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_001_base",
+      "split": "train",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_001_base",
+      "split": "train",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_001_base",
+      "split": "train",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_001_base",
+      "split": "train",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_001_base",
+      "split": "train",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_001_base",
+      "split": "train",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_002_base",
+      "split": "train",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_002_base",
+      "split": "train",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_002_base",
+      "split": "train",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_002_base",
+      "split": "train",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_002_base",
+      "split": "train",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_002_base",
+      "split": "train",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_002_base",
+      "split": "train",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_002_base",
+      "split": "train",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_003_base",
+      "split": "train",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_003_base",
+      "split": "train",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_003_base",
+      "split": "train",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_003_base",
+      "split": "train",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_003_base",
+      "split": "train",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_003_base",
+      "split": "train",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_003_base",
+      "split": "train",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_003_base",
+      "split": "train",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_004_base",
+      "split": "train",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_004_base",
+      "split": "train",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_004_base",
+      "split": "train",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_004_base",
+      "split": "train",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_004_base",
+      "split": "train",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_004_base",
+      "split": "train",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_004_base",
+      "split": "train",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_004_base",
+      "split": "train",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_005_base",
+      "split": "train",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_005_base",
+      "split": "train",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_005_base",
+      "split": "train",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_005_base",
+      "split": "train",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_005_base",
+      "split": "train",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_005_base",
+      "split": "train",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_005_base",
+      "split": "train",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_005_base",
+      "split": "train",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_006_base",
+      "split": "train",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_006_base",
+      "split": "train",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_006_base",
+      "split": "train",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_006_base",
+      "split": "train",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_006_base",
+      "split": "train",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_006_base",
+      "split": "train",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_006_base",
+      "split": "train",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_006_base",
+      "split": "train",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_007_base",
+      "split": "train",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_007_base",
+      "split": "train",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_007_base",
+      "split": "train",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_007_base",
+      "split": "train",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_007_base",
+      "split": "train",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_007_base",
+      "split": "train",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_007_base",
+      "split": "train",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_007_base",
+      "split": "train",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_008_base",
+      "split": "train",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_008_base",
+      "split": "train",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_008_base",
+      "split": "train",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_008_base",
+      "split": "train",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_008_base",
+      "split": "train",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_008_base",
+      "split": "train",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_008_base",
+      "split": "train",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_008_base",
+      "split": "train",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_009_base",
+      "split": "train",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_009_base",
+      "split": "train",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_009_base",
+      "split": "train",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_009_base",
+      "split": "train",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_009_base",
+      "split": "train",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_009_base",
+      "split": "train",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_009_base",
+      "split": "train",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_009_base",
+      "split": "train",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_010_base",
+      "split": "train",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_010_base",
+      "split": "train",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_010_base",
+      "split": "train",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_010_base",
+      "split": "train",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_010_base",
+      "split": "train",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_010_base",
+      "split": "train",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_010_base",
+      "split": "train",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "reagan_010_base",
+      "split": "train",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_011_base",
+      "split": "test",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_011_base",
+      "split": "test",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_011_base",
+      "split": "test",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_011_base",
+      "split": "test",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_011_base",
+      "split": "test",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_011_base",
+      "split": "test",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_011_base",
+      "split": "test",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_011_base",
+      "split": "test",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_012_base",
+      "split": "test",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_012_base",
+      "split": "test",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_012_base",
+      "split": "test",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_012_base",
+      "split": "test",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_012_base",
+      "split": "test",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_012_base",
+      "split": "test",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_012_base",
+      "split": "test",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_012_base",
+      "split": "test",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_013_base",
+      "split": "test",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_013_base",
+      "split": "test",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_013_base",
+      "split": "test",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_013_base",
+      "split": "test",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_013_base",
+      "split": "test",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_013_base",
+      "split": "test",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_013_base",
+      "split": "test",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_013_base",
+      "split": "test",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_014_base",
+      "split": "test",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_014_base",
+      "split": "test",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_014_base",
+      "split": "test",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_014_base",
+      "split": "test",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_014_base",
+      "split": "test",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_014_base",
+      "split": "test",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_014_base",
+      "split": "test",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_014_base",
+      "split": "test",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_015_base",
+      "split": "test",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_015_base",
+      "split": "test",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_015_base",
+      "split": "test",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_015_base",
+      "split": "test",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_015_base",
+      "split": "test",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_015_base",
+      "split": "test",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_015_base",
+      "split": "test",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_015_base",
+      "split": "test",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_016_base",
+      "split": "test",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_016_base",
+      "split": "test",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_016_base",
+      "split": "test",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_016_base",
+      "split": "test",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_016_base",
+      "split": "test",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_016_base",
+      "split": "test",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_016_base",
+      "split": "test",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_016_base",
+      "split": "test",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_017_base",
+      "split": "test",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_017_base",
+      "split": "test",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_017_base",
+      "split": "test",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_017_base",
+      "split": "test",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_017_base",
+      "split": "test",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_017_base",
+      "split": "test",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_017_base",
+      "split": "test",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_017_base",
+      "split": "test",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_018_base",
+      "split": "test",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_018_base",
+      "split": "test",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_018_base",
+      "split": "test",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_018_base",
+      "split": "test",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_018_base",
+      "split": "test",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_018_base",
+      "split": "test",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_018_base",
+      "split": "test",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "obama_018_base",
+      "split": "test",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_019_base",
+      "split": "validation",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_019_base",
+      "split": "validation",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_019_base",
+      "split": "validation",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_019_base",
+      "split": "validation",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_019_base",
+      "split": "validation",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_019_base",
+      "split": "validation",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_019_base",
+      "split": "validation",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_019_base",
+      "split": "validation",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_020_base",
+      "split": "validation",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_020_base",
+      "split": "validation",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_020_base",
+      "split": "validation",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_020_base",
+      "split": "validation",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_020_base",
+      "split": "validation",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_020_base",
+      "split": "validation",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_020_base",
+      "split": "validation",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_moon_020_base",
+      "split": "validation",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_return_021_base",
+      "split": "validation",
+      "control": "speed_minus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_return_021_base",
+      "split": "validation",
+      "control": "speed_plus_10pct",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_return_021_base",
+      "split": "validation",
+      "control": "gain_minus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_return_021_base",
+      "split": "validation",
+      "control": "gain_plus_6db",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_return_021_base",
+      "split": "validation",
+      "control": "pitch_minus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_return_021_base",
+      "split": "validation",
+      "control": "pitch_plus_3st",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_return_021_base",
+      "split": "validation",
+      "control": "stationary_noise_25db_snr",
+      "false_event_count": 0,
+      "event_types": []
+    },
+    {
+      "clip_id": "jfk_return_021_base",
+      "split": "validation",
+      "control": "phone_band_300_3400hz",
+      "false_event_count": 0,
+      "event_types": []
+    }
+  ]
+}

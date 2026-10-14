@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "wav_files_compared": 273,
+  "exact_audio_bytes_reproduced": true,
+  "changed": [],
+  "scope": "Independent second execution of offline build, same environment, frozen source/crop inputs. Does not revalidate human alignment."
+}

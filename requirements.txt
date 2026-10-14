@@ -1,0 +1,4 @@
+numpy==2.5.1
+scipy==1.18.0
+soundfile==0.14.0
+pocketsphinx==5.0.4
