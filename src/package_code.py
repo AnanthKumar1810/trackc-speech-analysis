@@ -4,7 +4,7 @@ import shutil
 import zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
-DEST=ROOT.parent/'trackc-speech-analysis'
+DEST=ROOT.parent/f'{ROOT.name}-code-only'
 DIRS={'src','metadata','splits','transcripts','localizer','model','reports',
       'alignment_mfa','.github'}
 FILES={'evaluation.html','pair.html','review.html','viewer_data.js','README.md',
