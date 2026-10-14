@@ -42,8 +42,10 @@ natural speaking-quality accuracy.
 3. Re-evaluate the detector on that natural holdout. Its current 33.3% event
    precision makes it a candidate-highlighting prototype rather than a reliable
    judge. A score above 90% is not supported by present evidence.
-4. Publish a public code repository and permissible public dataset package,
-   then provide the links in the hackathon entry. Check final submission rules.
+4. The code and documentation are now published at
+   https://github.com/AnanthKumar1810/trackc-speech-analysis. The large public
+   dataset archive still needs a public download location and verified URL
+   before the hackathon entry can link it. Check final submission rules.
 5. The user will produce the required submission video separately.
 
 ## Reproduce this release
