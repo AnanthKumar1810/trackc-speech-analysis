@@ -121,6 +121,17 @@ def _event(kind,start,end,index,value,magnitude,explanation):
             'severity':level,'explanation':explanation}
 
 
+def gate_single_edit_events(events, predicted_type):
+    """Keep only one paired-model class for a benchmark with one edit per clip.
+
+    This is a benchmark-specific precision filter. Do not use it for natural
+    speech where a take can contain multiple simultaneous delivery issues.
+    """
+    if predicted_type == 'none':
+        return []
+    return [event for event in events if event['type'] == predicted_type]
+
+
 def _merge(events, max_gap=.12):
     merged=[]
     for e in sorted(events,key=lambda x:(x['type'],x['start_seconds'])):

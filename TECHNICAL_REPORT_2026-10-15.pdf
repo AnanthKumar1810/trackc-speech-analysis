@@ -4,7 +4,7 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Count 3 /Kids [5 0 R 7 0 R 9 0 R] >>
+<< /Type /Pages /Count 4 /Kids [5 0 R 7 0 R 9 0 R 11 0 R] >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
@@ -136,7 +136,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
 endobj
 8 0 obj
-<< /Length 3626 >>
+<< /Length 3718 >>
 stream
 BT /F1 10.5 Tf 50 790 Td 14 TL
 (only when its type matches and its interval IoU with the exact edit is at least 0.5. Event) Tj T*
@@ -157,12 +157,51 @@ BT /F1 10.5 Tf 50 790 Td 14 TL
 (and precision 33.6%. Family-bootstrap 95% intervals at IoU >=0.5 were 49.0-67.7% recall,) Tj T*
 (31.1-57.4% precision, and 39.1-61.1% F1. There were 79 extra or insufficient-overlap) Tj T*
 (predictions, down from 106 with the previous detector. Mean onset/offset errors among) Tj T*
-(IoU-localized events were 0.072/0.166 s. The older whole-clip model's 97.1% digital) Tj T*
-(edit-type accuracy is a different task.) Tj T*
+(IoU-localized events were 0.072/0.166 s.) Tj T*
+() Tj T*
+(One-edit benchmark type gate) Tj T*
+() Tj T*
+(For the benchmark's known setup of exactly one programmed edit per clip, we tested a simple) Tj T*
+(inference-time filter: the paired classifier predicts the edit type, then the localizer) Tj T*
+(retains only candidate intervals of that type; if the classifier predicts no edit, it) Tj T*
+(suppresses candidates. The filter threshold was chosen using five-fold passage-family) Tj T*
+(grouped out-of-fold predictions on Reagan training data and a Kennedy validation guard,) Tj T*
+(without loading Obama test outcomes for selection. On the held-out Obama test split,) Tj T*
+(precision increased from 42.3% to 65.2% and event F1 from 49.8% to 62.7%, while recall) Tj T*
+(remained 60.4%; candidate intervals fell from 137 to 89 and the 58 correctly localized edits) Tj T*
+(were retained. Family-bootstrap 95% F1 interval was 50.5-73.3%. This is a useful prototype) Tj T*
+(result, but the same fixed test split had already been used for earlier classifier) Tj T*
+(reporting, so it is not a fresh independent benchmark. Because natural speech may contain) Tj T*
+(multiple event types, this gate is benchmark-only and is not applied to user uploads.) Tj T*
+() Tj T*
+(Retrained edit-signature classifier) Tj T*
+() Tj T*
+(To improve the separate whole-clip task, logistic regression, RBF SVM, Random Forest,) Tj T*
+(ExtraTrees and histogram gradient boosting were compared with five-fold grouped) Tj T*
+(cross-validation over Reagan training passage families. Kennedy validation guarded against) Tj T*
+(regression; it and the training families were then used to refit the selected ExtraTrees) Tj T*
+(heads. The frozen model scored 104/104 \(100.0%, macro F1 1.000\) for digital edit type and) Tj T*
+(101/104 \(97.1%, macro F1 0.977\) for programmed edit strength on the Obama test clips. This) Tj T*
+(is the same fixed test set previously reported for the logistic baseline \(97.1% type) Tj T*
+(accuracy; 73.1% strength accuracy\), so it is not a new independent benchmark. The candidate) Tj T*
+(search did not use test outcomes. These are synthetic-operation recognition metrics, not) Tj T*
+(speech-quality or natural-speech scores. The current model and protocol are documented in) Tj T*
+(MODEL_CARD.md.) Tj T*
 () Tj T*
 (Limits and remaining human validation) Tj T*
 () Tj T*
 (The detector has low precision, especially on Kennedy, and word-alignment errors can create) Tj T*
+ET
+BT /F1 8 Tf 50 35 Td (Track C technical report | 15 October 2026 | page 3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 2328 >>
+stream
+BT /F1 10.5 Tf 50 790 Td 14 TL
 (misleading regions. Quiet events are only recorded-energy differences; automatic gain) Tj T*
 (control and microphone changes can reverse their meaning. The same-reference archival) Tj T*
 (variants are far easier than unrelated natural performances. There is no verified) Tj T*
@@ -190,28 +229,32 @@ BT /F1 10.5 Tf 50 790 Td 14 TL
 () Tj T*
 (References: official Track C problem statement and submission guide supplied for the) Tj T*
 (hackathon; MFA documentation; DTW implementation and source/rights links recorded in) Tj T*
-(RIGHTS.md. The user handles the required submission video separately.) Tj T*
+(RIGHTS.md. The combined benchmark result is specific to controlled digital edits and does) Tj T*
+(not establish accuracy on natural speech. The user handles the required submission video) Tj T*
+(separately.) Tj T*
 ET
-BT /F1 8 Tf 50 35 Td (Track C technical report | 15 October 2026 | page 3) Tj ET
+BT /F1 8 Tf 50 35 Td (Track C technical report | 15 October 2026 | page 4) Tj ET
 endstream
 endobj
-9 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
 endobj
 xref
-0 10
+0 12
 0000000000 65535 f 
 0000000015 00000 n 
 0000000064 00000 n 
-0000000133 00000 n 
-0000000203 00000 n 
-0000003641 00000 n 
-0000003767 00000 n 
-0000007202 00000 n 
-0000007328 00000 n 
-0000011006 00000 n 
+0000000140 00000 n 
+0000000210 00000 n 
+0000003648 00000 n 
+0000003774 00000 n 
+0000007209 00000 n 
+0000007335 00000 n 
+0000011105 00000 n 
+0000011231 00000 n 
+0000013612 00000 n 
 trailer
-<< /Size 10 /Root 1 0 R >>
+<< /Size 12 /Root 1 0 R >>
 startxref
-11132
+13740
 %%EOF

@@ -21,12 +21,13 @@ All figures below are measured on the **fixed Obama-speaker test split of digita
 |---|---:|---|
 | Digital-edit type classification | **104/104 correct (100.0% accuracy; macro F1 1.000)** | Recognizes the known edit operation in this controlled dataset. |
 | Programmed edit-strength classification | **101/104 correct (97.1% accuracy; macro F1 0.977)** | Predicts the intervention level used to generate an edit; strength levels are not listener ratings. |
-| Event localization, interval IoU ≥ 0.5 | **42.3% precision, 60.4% recall, 49.8% F1** | Finds intervals overlapping the known synthetic edit region. There were 79 extra or insufficient-overlap predictions. |
-| Event-localization F1 uncertainty | **39.1–61.1% family-bootstrap 95% interval** | Uncertainty across the eight held-out passage families. |
+| Event detector alone, interval IoU ≥ 0.5 | **42.3% precision, 60.4% recall, 49.8% F1** | Finds intervals overlapping the known synthetic edit region. It produced 137 candidate events, including cross-type false alerts. |
+| Combined one-edit pipeline, interval IoU ≥ 0.5 | **65.2% precision, 60.4% recall, 62.7% F1** | The paired classifier predicts the operation type, then the detector retains only intervals of that type. Candidate events fell from 137 to 89 while the 58 correctly localized edits were retained. |
+| Combined-pipeline F1 uncertainty | **50.5–73.3% family-bootstrap 95% interval** | Resamples the eight held-out passage families; it does not estimate generalization across speakers. |
 
-The classifier’s previous logistic baseline scored 97.1% edit-type accuracy and 73.1% strength accuracy on this same test set. The newer ExtraTrees model was selected without using test outcomes, but this is **not a new independent benchmark**: the test set had already been used to report the baseline. The localizer improved from 33.3% precision, 55.2% recall and 41.6% F1 to the results shown above after threshold selection on training and validation data.
+The one-edit type filter was selected using passage-family out-of-fold predictions on training data and a validation-speaker guard; the test split was not used to select it. The new classifier was also evaluated on this fixed test set previously, so the combined result is **not a new independent benchmark**. The earlier logistic baseline scored 97.1% edit-type accuracy and 73.1% programmed-strength accuracy. The ungated localizer improved from 33.3% precision, 55.2% recall and 41.6% F1 to the current 42.3%, 60.4% and 49.8% after threshold selection.
 
-These high classifier scores concern recovery of **programmed digital operations**, not whether a real person speaks clearly, naturally or effectively. The localizer’s precision means a considerable number of highlighted regions may be false alarms. See [MODEL_CARD.md](MODEL_CARD.md), [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [technical report](TECHNICAL_REPORT_2026-10-15.pdf) for protocols and caveats.
+The 62.7% result applies to the benchmark’s **one-programmed-edit-per-clip** condition. The dashboard offers the type filter for those benchmark examples; newly uploaded recordings remain ungated because real speech can contain more than one issue. The classifier scores concern recovery of programmed digital operations, not whether a person speaks clearly, naturally or effectively. No natural-speech accuracy has been measured. See [MODEL_CARD.md](MODEL_CARD.md), [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [technical report](TECHNICAL_REPORT_2026-10-15.pdf) for protocols and caveats.
 
 ## Run the demo
 
@@ -78,6 +79,7 @@ python src/validate.py
 python src/tune_localizer.py
 python src/optimize_localizer.py
 python src/evaluate_localizer.py
+python src/experiment_localizer_type_gate.py
 python src/experiment_classifier.py
 python src/retrain_model.py
 python src/evaluate_retrained_model.py

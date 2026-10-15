@@ -1,5 +1,27 @@
 # Project status — 15 October 2026
 
+## Combined one-edit benchmark result
+
+- Added a benchmark-only type filter: the paired classifier predicts the
+  digitally applied operation, then the event detector retains candidate
+  intervals of that type. The rule was selected using passage-family
+  out-of-fold train predictions and a validation-speaker guard; the test split
+  was not used to choose it.
+- On the fixed Obama synthetic test set, the combined pipeline reached
+  **65.2% event precision, 60.4% recall and 62.7% F1** at interval IoU ≥ 0.5,
+  compared with **42.3%, 60.4% and 49.8%** for the event detector alone. It
+  reduced candidate intervals from 137 to 89 while retaining 58 correctly
+  localized edits.
+- Family-bootstrap 95% interval for combined F1: **50.5–73.3%**, based on
+  resampling the eight test passage families. This is not uncertainty across
+  speakers.
+- The dashboard enables this filter only for the controlled archive, where
+  each variant contains one programmed edit. Uploaded takes remain ungated;
+  natural speech can contain multiple simultaneous issues.
+- The classifier’s results on this same fixed test set were reported earlier.
+  Although the gate rule was selected without test results, this combined
+  score is exploratory and is not a fresh independent benchmark.
+
 ## 15 October detector and dashboard update
 
 - Reworked `evaluation.html` into a responsive analysis dashboard with a clear

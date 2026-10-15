@@ -1,0 +1,592 @@
+{
+  "scope": "Train-family out-of-fold predictions and validation were used for selection; the fixed test split was evaluated once after selection.",
+  "condition": "One digitally edited operation per clip. A global type gate may suppress valid simultaneous events in natural speech.",
+  "classifier": "extra_trees_leaf1_featuressqrt",
+  "training_prediction": "5-fold passage-family out-of-fold predictions for Reagan train; classifier fit on Reagan only for Kennedy validation.",
+  "baseline_ungated": {
+    "confidence_threshold": 1.01,
+    "train": {
+      "clips": 130,
+      "positive_clips": 120,
+      "hits": 70,
+      "predicted_events": 134,
+      "precision": 0.5224,
+      "recall": 0.5833,
+      "f1": 0.5512
+    },
+    "train_macro_family_f1": 0.5598,
+    "validation": {
+      "clips": 39,
+      "positive_clips": 36,
+      "hits": 20,
+      "predicted_events": 66,
+      "precision": 0.303,
+      "recall": 0.5556,
+      "f1": 0.3922
+    }
+  },
+  "selected_candidate": {
+    "confidence_threshold": 0.0,
+    "train": {
+      "clips": 130,
+      "positive_clips": 120,
+      "hits": 70,
+      "predicted_events": 105,
+      "precision": 0.6667,
+      "recall": 0.5833,
+      "f1": 0.6222
+    },
+    "train_macro_family_f1": 0.6237,
+    "validation": {
+      "clips": 39,
+      "positive_clips": 36,
+      "hits": 20,
+      "predicted_events": 33,
+      "precision": 0.6061,
+      "recall": 0.5556,
+      "f1": 0.5797
+    }
+  },
+  "best_validation_only": {
+    "confidence_threshold": 0.0,
+    "train": {
+      "clips": 130,
+      "positive_clips": 120,
+      "hits": 70,
+      "predicted_events": 105,
+      "precision": 0.6667,
+      "recall": 0.5833,
+      "f1": 0.6222
+    },
+    "train_macro_family_f1": 0.6237,
+    "validation": {
+      "clips": 39,
+      "positive_clips": 36,
+      "hits": 20,
+      "predicted_events": 33,
+      "precision": 0.6061,
+      "recall": 0.5556,
+      "f1": 0.5797
+    }
+  },
+  "test_evaluation_after_selection": {
+    "baseline_ungated": {
+      "clips": 104,
+      "positive_clips": 96,
+      "hits": 58,
+      "predicted_events": 137,
+      "precision": 0.4234,
+      "recall": 0.6042,
+      "f1": 0.4979
+    },
+    "classifier_gated": {
+      "clips": 104,
+      "positive_clips": 96,
+      "hits": 58,
+      "predicted_events": 89,
+      "precision": 0.6517,
+      "recall": 0.6042,
+      "f1": 0.627
+    },
+    "gate_confidence_threshold": 0.0,
+    "classifier_type_accuracy_on_test": 1.0,
+    "family_bootstrap_f1_95_ci": {
+      "baseline": [
+        0.3871,
+        0.6078
+      ],
+      "gated": [
+        0.5026,
+        0.7294
+      ]
+    },
+    "test_used_for_selection": false,
+    "limitation": "Same fixed synthetic test set was reported in earlier work; this combined-pipeline result is exploratory, not an independent benchmark."
+  },
+  "grid": [
+    {
+      "confidence_threshold": 0.0,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 105,
+        "precision": 0.6667,
+        "recall": 0.5833,
+        "f1": 0.6222
+      },
+      "train_macro_family_f1": 0.6237,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 33,
+        "precision": 0.6061,
+        "recall": 0.5556,
+        "f1": 0.5797
+      }
+    },
+    {
+      "confidence_threshold": 0.05,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 105,
+        "precision": 0.6667,
+        "recall": 0.5833,
+        "f1": 0.6222
+      },
+      "train_macro_family_f1": 0.6237,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 33,
+        "precision": 0.6061,
+        "recall": 0.5556,
+        "f1": 0.5797
+      }
+    },
+    {
+      "confidence_threshold": 0.1,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 105,
+        "precision": 0.6667,
+        "recall": 0.5833,
+        "f1": 0.6222
+      },
+      "train_macro_family_f1": 0.6237,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 33,
+        "precision": 0.6061,
+        "recall": 0.5556,
+        "f1": 0.5797
+      }
+    },
+    {
+      "confidence_threshold": 0.15,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 105,
+        "precision": 0.6667,
+        "recall": 0.5833,
+        "f1": 0.6222
+      },
+      "train_macro_family_f1": 0.6237,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 33,
+        "precision": 0.6061,
+        "recall": 0.5556,
+        "f1": 0.5797
+      }
+    },
+    {
+      "confidence_threshold": 0.2,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 105,
+        "precision": 0.6667,
+        "recall": 0.5833,
+        "f1": 0.6222
+      },
+      "train_macro_family_f1": 0.6237,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 33,
+        "precision": 0.6061,
+        "recall": 0.5556,
+        "f1": 0.5797
+      }
+    },
+    {
+      "confidence_threshold": 0.25,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 105,
+        "precision": 0.6667,
+        "recall": 0.5833,
+        "f1": 0.6222
+      },
+      "train_macro_family_f1": 0.6237,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 33,
+        "precision": 0.6061,
+        "recall": 0.5556,
+        "f1": 0.5797
+      }
+    },
+    {
+      "confidence_threshold": 0.3,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 105,
+        "precision": 0.6667,
+        "recall": 0.5833,
+        "f1": 0.6222
+      },
+      "train_macro_family_f1": 0.6237,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 33,
+        "precision": 0.6061,
+        "recall": 0.5556,
+        "f1": 0.5797
+      }
+    },
+    {
+      "confidence_threshold": 0.35,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 105,
+        "precision": 0.6667,
+        "recall": 0.5833,
+        "f1": 0.6222
+      },
+      "train_macro_family_f1": 0.6237,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 33,
+        "precision": 0.6061,
+        "recall": 0.5556,
+        "f1": 0.5797
+      }
+    },
+    {
+      "confidence_threshold": 0.4,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 105,
+        "precision": 0.6667,
+        "recall": 0.5833,
+        "f1": 0.6222
+      },
+      "train_macro_family_f1": 0.6237,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 33,
+        "precision": 0.6061,
+        "recall": 0.5556,
+        "f1": 0.5797
+      }
+    },
+    {
+      "confidence_threshold": 0.45,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 105,
+        "precision": 0.6667,
+        "recall": 0.5833,
+        "f1": 0.6222
+      },
+      "train_macro_family_f1": 0.6237,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 33,
+        "precision": 0.6061,
+        "recall": 0.5556,
+        "f1": 0.5797
+      }
+    },
+    {
+      "confidence_threshold": 0.5,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 105,
+        "precision": 0.6667,
+        "recall": 0.5833,
+        "f1": 0.6222
+      },
+      "train_macro_family_f1": 0.6237,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 33,
+        "precision": 0.6061,
+        "recall": 0.5556,
+        "f1": 0.5797
+      }
+    },
+    {
+      "confidence_threshold": 0.55,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 106,
+        "precision": 0.6604,
+        "recall": 0.5833,
+        "f1": 0.6195
+      },
+      "train_macro_family_f1": 0.622,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 33,
+        "precision": 0.6061,
+        "recall": 0.5556,
+        "f1": 0.5797
+      }
+    },
+    {
+      "confidence_threshold": 0.6,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 106,
+        "precision": 0.6604,
+        "recall": 0.5833,
+        "f1": 0.6195
+      },
+      "train_macro_family_f1": 0.622,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 33,
+        "precision": 0.6061,
+        "recall": 0.5556,
+        "f1": 0.5797
+      }
+    },
+    {
+      "confidence_threshold": 0.65,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 106,
+        "precision": 0.6604,
+        "recall": 0.5833,
+        "f1": 0.6195
+      },
+      "train_macro_family_f1": 0.622,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 35,
+        "precision": 0.5714,
+        "recall": 0.5556,
+        "f1": 0.5634
+      }
+    },
+    {
+      "confidence_threshold": 0.7,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 108,
+        "precision": 0.6481,
+        "recall": 0.5833,
+        "f1": 0.614
+      },
+      "train_macro_family_f1": 0.6191,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 35,
+        "precision": 0.5714,
+        "recall": 0.5556,
+        "f1": 0.5634
+      }
+    },
+    {
+      "confidence_threshold": 0.75,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 108,
+        "precision": 0.6481,
+        "recall": 0.5833,
+        "f1": 0.614
+      },
+      "train_macro_family_f1": 0.6191,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 35,
+        "precision": 0.5714,
+        "recall": 0.5556,
+        "f1": 0.5634
+      }
+    },
+    {
+      "confidence_threshold": 0.8,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 112,
+        "precision": 0.625,
+        "recall": 0.5833,
+        "f1": 0.6034
+      },
+      "train_macro_family_f1": 0.6079,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 38,
+        "precision": 0.5263,
+        "recall": 0.5556,
+        "f1": 0.5405
+      }
+    },
+    {
+      "confidence_threshold": 0.85,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 114,
+        "precision": 0.614,
+        "recall": 0.5833,
+        "f1": 0.5983
+      },
+      "train_macro_family_f1": 0.6039,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 41,
+        "precision": 0.4878,
+        "recall": 0.5556,
+        "f1": 0.5195
+      }
+    },
+    {
+      "confidence_threshold": 0.9,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 119,
+        "precision": 0.5882,
+        "recall": 0.5833,
+        "f1": 0.5858
+      },
+      "train_macro_family_f1": 0.5925,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 45,
+        "precision": 0.4444,
+        "recall": 0.5556,
+        "f1": 0.4938
+      }
+    },
+    {
+      "confidence_threshold": 0.95,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 128,
+        "precision": 0.5469,
+        "recall": 0.5833,
+        "f1": 0.5645
+      },
+      "train_macro_family_f1": 0.5725,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 57,
+        "precision": 0.3509,
+        "recall": 0.5556,
+        "f1": 0.4301
+      }
+    },
+    {
+      "confidence_threshold": 1.0,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 134,
+        "precision": 0.5224,
+        "recall": 0.5833,
+        "f1": 0.5512
+      },
+      "train_macro_family_f1": 0.5598,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 63,
+        "precision": 0.3175,
+        "recall": 0.5556,
+        "f1": 0.404
+      }
+    },
+    {
+      "confidence_threshold": 1.01,
+      "train": {
+        "clips": 130,
+        "positive_clips": 120,
+        "hits": 70,
+        "predicted_events": 134,
+        "precision": 0.5224,
+        "recall": 0.5833,
+        "f1": 0.5512
+      },
+      "train_macro_family_f1": 0.5598,
+      "validation": {
+        "clips": 39,
+        "positive_clips": 36,
+        "hits": 20,
+        "predicted_events": 66,
+        "precision": 0.303,
+        "recall": 0.5556,
+        "f1": 0.3922
+      }
+    }
+  ]
+}

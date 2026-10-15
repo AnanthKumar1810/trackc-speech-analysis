@@ -1,5 +1,6 @@
 {
   "scope": "Digital edits only; no human speech-quality accuracy is implied.",
+  "single_edit_gate_protocol": "The gate classifier is the released fit on train+validation. Only its test metrics are held out; its train and validation metrics below are in-sample diagnostics. The gate threshold and rule were selected with OOF train and validation only in reports/localizer_type_gate_experiment_20261015.json.",
   "thresholds": {
     "pause_excess_s": 0.25,
     "quiet_db": -6.0,
@@ -58,7 +59,15 @@
       },
       "localization_recall_iou_0_3": 0.6667,
       "collar_200ms_recall": 0.4667,
-      "collar_200ms_precision": 0.4179
+      "collar_200ms_precision": 0.4179,
+      "single_edit_type_gate": {
+        "classifier_type_accuracy": 1.0,
+        "localization_recall_iou_0_5": 0.5833,
+        "event_precision_iou_0_5": 0.6667,
+        "event_f1_iou_0_5": 0.6222,
+        "predicted_events": 105,
+        "condition": "Use only when the benchmark guarantees one edited operation per clip; not suitable for natural speech with multiple concurrent issues."
+      }
     },
     "validation": {
       "clips": 39,
@@ -110,7 +119,15 @@
       },
       "localization_recall_iou_0_3": 0.6389,
       "collar_200ms_recall": 0.4722,
-      "collar_200ms_precision": 0.2576
+      "collar_200ms_precision": 0.2576,
+      "single_edit_type_gate": {
+        "classifier_type_accuracy": 1.0,
+        "localization_recall_iou_0_5": 0.5556,
+        "event_precision_iou_0_5": 0.6061,
+        "event_f1_iou_0_5": 0.5797,
+        "predicted_events": 33,
+        "condition": "Use only when the benchmark guarantees one edited operation per clip; not suitable for natural speech with multiple concurrent issues."
+      }
     },
     "test": {
       "clips": 104,
@@ -163,6 +180,28 @@
       "localization_recall_iou_0_3": 0.6771,
       "collar_200ms_recall": 0.4792,
       "collar_200ms_precision": 0.3358,
+      "single_edit_type_gate": {
+        "classifier_type_accuracy": 1.0,
+        "localization_recall_iou_0_5": 0.6042,
+        "event_precision_iou_0_5": 0.6517,
+        "event_f1_iou_0_5": 0.627,
+        "predicted_events": 89,
+        "condition": "Use only when the benchmark guarantees one edited operation per clip; not suitable for natural speech with multiple concurrent issues.",
+        "family_bootstrap_95_ci": {
+          "recall": [
+            0.4896,
+            0.6771
+          ],
+          "precision": [
+            0.4999,
+            0.8378
+          ],
+          "f1": [
+            0.505,
+            0.7326
+          ]
+        }
+      },
       "family_bootstrap_95_ci": {
         "recall": [
           0.4896,

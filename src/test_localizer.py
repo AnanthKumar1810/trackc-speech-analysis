@@ -3,11 +3,16 @@ from pathlib import Path
 from collections import defaultdict
 import numpy as np
 from core import loadl, read
-from localizer import detect, _merge, _rubric
+from localizer import detect, _merge, _rubric, gate_single_edit_events
 
 ROOT=Path(__file__).resolve().parents[1]
 
 class LocalizerTests(unittest.TestCase):
+    def test_single_edit_gate_keeps_only_predicted_type(self):
+        events=[{'type':'pause'},{'type':'rush'},{'type':'quiet'}]
+        self.assertEqual(gate_single_edit_events(events,'rush'),[events[1]])
+        self.assertEqual(gate_single_edit_events(events,'none'),[])
+
     @classmethod
     def setUpClass(cls):
         cls.has_audio=(ROOT/'audio').is_dir()
