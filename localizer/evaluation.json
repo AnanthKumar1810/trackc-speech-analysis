@@ -4,20 +4,21 @@
     "pause_excess_s": 0.25,
     "quiet_db": -6.0,
     "rush_ratio": 0.82,
-    "drag_ratio": 1.22
+    "drag_ratio": 1.3,
+    "merge_gap_s": 0.6
   },
   "splits": {
     "train": {
       "clips": 130,
       "positive_clips": 120,
-      "type_recall": 0.75,
-      "localization_recall_iou_0_5": 0.525,
-      "event_precision_iou_0_5": 0.3772,
-      "event_f1_iou_0_5": 0.439,
-      "mean_best_same_type_iou": 0.4943,
-      "mean_onset_error_s_localized": 0.222,
-      "mean_offset_error_s_localized": 0.226,
-      "false_positive_events": 104,
+      "type_recall": 0.7167,
+      "localization_recall_iou_0_5": 0.5833,
+      "event_precision_iou_0_5": 0.5224,
+      "event_f1_iou_0_5": 0.5512,
+      "mean_best_same_type_iou": 0.5514,
+      "mean_onset_error_s_localized": 0.123,
+      "mean_offset_error_s_localized": 0.189,
+      "false_positive_events": 64,
       "base_clips_with_false_event": 0,
       "by_type": {
         "pause": {
@@ -28,17 +29,17 @@
         "quiet": {
           "n": 30,
           "type_recall": 0.367,
-          "localization_recall_iou_0_5": 0.267
+          "localization_recall_iou_0_5": 0.3
         },
         "rush": {
           "n": 30,
           "type_recall": 0.8,
-          "localization_recall_iou_0_5": 0.433
+          "localization_recall_iou_0_5": 0.667
         },
         "drag": {
           "n": 30,
-          "type_recall": 0.833,
-          "localization_recall_iou_0_5": 0.467
+          "type_recall": 0.7,
+          "localization_recall_iou_0_5": 0.433
         }
       },
       "by_severity": {
@@ -48,28 +49,28 @@
         },
         "moderate": {
           "n": 40,
-          "localization_recall_iou_0_5": 0.575
+          "localization_recall_iou_0_5": 0.65
         },
         "severe": {
           "n": 40,
-          "localization_recall_iou_0_5": 0.775
+          "localization_recall_iou_0_5": 0.875
         }
       },
-      "localization_recall_iou_0_3": 0.65,
-      "collar_200ms_recall": 0.3417,
-      "collar_200ms_precision": 0.2455
+      "localization_recall_iou_0_3": 0.6667,
+      "collar_200ms_recall": 0.4667,
+      "collar_200ms_precision": 0.4179
     },
     "validation": {
       "clips": 39,
       "positive_clips": 36,
-      "type_recall": 0.8056,
-      "localization_recall_iou_0_5": 0.4722,
-      "event_precision_iou_0_5": 0.2237,
-      "event_f1_iou_0_5": 0.3036,
-      "mean_best_same_type_iou": 0.4951,
-      "mean_onset_error_s_localized": 0.276,
-      "mean_offset_error_s_localized": 0.042,
-      "false_positive_events": 59,
+      "type_recall": 0.75,
+      "localization_recall_iou_0_5": 0.5556,
+      "event_precision_iou_0_5": 0.303,
+      "event_f1_iou_0_5": 0.3922,
+      "mean_best_same_type_iou": 0.5536,
+      "mean_onset_error_s_localized": 0.161,
+      "mean_offset_error_s_localized": 0.097,
+      "false_positive_events": 46,
       "base_clips_with_false_event": 0,
       "by_type": {
         "pause": {
@@ -80,17 +81,17 @@
         "quiet": {
           "n": 9,
           "type_recall": 0.333,
-          "localization_recall_iou_0_5": 0.111
+          "localization_recall_iou_0_5": 0.222
         },
         "rush": {
           "n": 9,
           "type_recall": 0.889,
-          "localization_recall_iou_0_5": 0.444
+          "localization_recall_iou_0_5": 0.556
         },
         "drag": {
           "n": 9,
-          "type_recall": 1.0,
-          "localization_recall_iou_0_5": 0.333
+          "type_recall": 0.778,
+          "localization_recall_iou_0_5": 0.444
         }
       },
       "by_severity": {
@@ -100,28 +101,28 @@
         },
         "moderate": {
           "n": 12,
-          "localization_recall_iou_0_5": 0.5
+          "localization_recall_iou_0_5": 0.583
         },
         "severe": {
           "n": 12,
-          "localization_recall_iou_0_5": 0.667
+          "localization_recall_iou_0_5": 0.833
         }
       },
-      "localization_recall_iou_0_3": 0.6111,
-      "collar_200ms_recall": 0.3889,
-      "collar_200ms_precision": 0.1842
+      "localization_recall_iou_0_3": 0.6389,
+      "collar_200ms_recall": 0.4722,
+      "collar_200ms_precision": 0.2576
     },
     "test": {
       "clips": 104,
       "positive_clips": 96,
-      "type_recall": 0.7604,
-      "localization_recall_iou_0_5": 0.5521,
-      "event_precision_iou_0_5": 0.3333,
-      "event_f1_iou_0_5": 0.4157,
-      "mean_best_same_type_iou": 0.5156,
-      "mean_onset_error_s_localized": 0.226,
-      "mean_offset_error_s_localized": 0.201,
-      "false_positive_events": 106,
+      "type_recall": 0.75,
+      "localization_recall_iou_0_5": 0.6042,
+      "event_precision_iou_0_5": 0.4234,
+      "event_f1_iou_0_5": 0.4979,
+      "mean_best_same_type_iou": 0.5798,
+      "mean_onset_error_s_localized": 0.072,
+      "mean_offset_error_s_localized": 0.166,
+      "false_positive_events": 79,
       "base_clips_with_false_event": 0,
       "by_type": {
         "pause": {
@@ -132,17 +133,17 @@
         "quiet": {
           "n": 24,
           "type_recall": 0.458,
-          "localization_recall_iou_0_5": 0.292
+          "localization_recall_iou_0_5": 0.375
         },
         "rush": {
           "n": 24,
           "type_recall": 0.833,
-          "localization_recall_iou_0_5": 0.5
+          "localization_recall_iou_0_5": 0.583
         },
         "drag": {
           "n": 24,
-          "type_recall": 0.792,
-          "localization_recall_iou_0_5": 0.458
+          "type_recall": 0.75,
+          "localization_recall_iou_0_5": 0.5
         }
       },
       "by_severity": {
@@ -152,28 +153,28 @@
         },
         "moderate": {
           "n": 32,
-          "localization_recall_iou_0_5": 0.656
+          "localization_recall_iou_0_5": 0.719
         },
         "severe": {
           "n": 32,
-          "localization_recall_iou_0_5": 0.781
+          "localization_recall_iou_0_5": 0.875
         }
       },
       "localization_recall_iou_0_3": 0.6771,
-      "collar_200ms_recall": 0.3542,
-      "collar_200ms_precision": 0.2138,
+      "collar_200ms_recall": 0.4792,
+      "collar_200ms_precision": 0.3358,
       "family_bootstrap_95_ci": {
         "recall": [
-          0.4062,
-          0.6562
+          0.4896,
+          0.6771
         ],
         "precision": [
-          0.2402,
-          0.4524
+          0.3113,
+          0.5741
         ],
         "f1": [
-          0.3066,
-          0.5273
+          0.3914,
+          0.6108
         ]
       }
     }

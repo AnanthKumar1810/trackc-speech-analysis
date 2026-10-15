@@ -1,5 +1,17 @@
 # Release v2 - 11 October 2026
 
+## Classifier retraining — 15 October 2026
+
+- Compared classifiers with passage-family-grouped cross-validation; kept the
+  held-out test speaker out of candidate selection.
+- Refit selected ExtraTrees classifiers on train and validation families.
+- On the fixed 104-clip synthetic test set, edit-type accuracy is 100.0% and
+  programmed-strength accuracy is 97.1% (macro F1 0.977). This reuses the test
+  set previously used for the logistic baseline and is not natural-speech
+  accuracy. See `MODEL_CARD.md` for details and limitations.
+- NumPy-only inference now supports the stored tree ensemble. Reproduction and
+  validation scripts were added.
+
 ## Evaluator update — 14 October 2026
 
 - Added word-grounded candidate flaw intervals, train-only threshold selection,

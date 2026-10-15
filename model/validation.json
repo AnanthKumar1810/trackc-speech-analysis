@@ -3,9 +3,10 @@
   "clips_reinferred": 273,
   "speaker_disjoint_splits": true,
   "training_speakers": [
+    "john_f_kennedy",
     "ronald_reagan"
   ],
   "model_predictions_match_frozen_csv": true,
-  "accuracy_and_confusions_match_report": true,
+  "test_accuracy_and_confusions_match_report": true,
   "model_scope": "Recognizes known digital edit signatures and programmed strengths; natural speaking quality unmeasured"
 }

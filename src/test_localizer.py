@@ -65,6 +65,17 @@ class LocalizerTests(unittest.TestCase):
         self.assertEqual(score['affected_words'],2)
         self.assertEqual(score['score'],0.)
 
+    def test_configurable_merge_gap_joins_one_edited_region(self):
+        events=[{'type':'drag','start_seconds':1.,'end_seconds':1.2,
+                 'word_index':2,'measurement':1.4,'severity':'moderate','explanation':'a'},
+                {'type':'drag','start_seconds':1.5,'end_seconds':1.8,
+                 'word_index':4,'measurement':1.5,'severity':'severe','explanation':'b'}]
+        self.assertEqual(len(_merge(events, max_gap=.2)),2)
+        merged=_merge(events, max_gap=.4)
+        self.assertEqual(len(merged),1)
+        self.assertEqual((merged[0]['start_seconds'],merged[0]['end_seconds']),(1.,1.8))
+        self.assertEqual(merged[0]['severity'],'severe')
+
     def test_global_tempo_change_is_not_mislabeled_as_local_word_flaw(self):
         from core import SR
         audio=np.zeros(SR*3,dtype=np.int16)

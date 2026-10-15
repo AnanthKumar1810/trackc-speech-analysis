@@ -9,8 +9,8 @@ DIRS={'src','metadata','splits','transcripts','localizer','model','reports',
       'alignment_mfa','.github'}
 FILES={'evaluation.html','pair.html','review.html','viewer_data.js','README.md',
        'DATASET_CARD.md','RIGHTS.md','LICENSE-CODE','PROJECT_STATUS.md',
-       'PUBLISHING.md','TECHNICAL_REPORT_2026-10-14.pdf',
-       'TECHNICAL_REPORT_2026-10-14.html','requirements.txt',
+       'PUBLISHING.md','TECHNICAL_REPORT_2026-10-15.pdf',
+       'TECHNICAL_REPORT_2026-10-15.html','requirements.txt',
        'requirements-model.txt','requirements-human.txt','MFA_WORKFLOW.md',
        'MODEL_CARD.md','RELEASE_NOTES.md','Makefile','Dockerfile',
        '.dockerignore'}

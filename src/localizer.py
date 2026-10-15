@@ -8,7 +8,7 @@ from core import SR, features
 
 VERSION = 'word-localizer-1.1'
 DEFAULTS = {'pause_excess_s': .18, 'quiet_db': -4.0,
-            'rush_ratio': .82, 'drag_ratio': 1.22}
+            'rush_ratio': .82, 'drag_ratio': 1.22, 'merge_gap_s': .12}
 
 
 def _word_level(f, start, end):
@@ -103,7 +103,7 @@ def detect(reference, take, reference_words, take_words, *,
                 events.append(_event('pause',end,take_words[i+1]['start_sample']/SR,
                     i,round(excess,3),excess,
                     f'Normalized gap {normalized_bg:.2f} s − reference gap {max(0,ag):.2f} s = {excess:.2f} s excess.'))
-    merged = _merge(events)
+    merged = _merge(events, max_gap=t['merge_gap_s'])
     return {'status':'candidate_events','version':VERSION,'events':merged,
             'scores':_rubric(merged,rows,same_setup),'word_measurements':rows,
             'normalization':{'global_tempo_ratio':round(global_tempo,3),
@@ -121,10 +121,10 @@ def _event(kind,start,end,index,value,magnitude,explanation):
             'severity':level,'explanation':explanation}
 
 
-def _merge(events):
+def _merge(events, max_gap=.12):
     merged=[]
     for e in sorted(events,key=lambda x:(x['type'],x['start_seconds'])):
-        if merged and merged[-1]['type']==e['type'] and e['start_seconds']-merged[-1]['end_seconds']<=.12:
+        if merged and merged[-1]['type']==e['type'] and e['start_seconds']-merged[-1]['end_seconds']<=max_gap:
             last=merged[-1]
             last['end_seconds']=max(last['end_seconds'],e['end_seconds'])
             last['severity']=max((last['severity'],e['severity']),key=lambda x:['minor','moderate','severe'].index(x))

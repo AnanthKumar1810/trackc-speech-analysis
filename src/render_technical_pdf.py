@@ -29,11 +29,12 @@ def pdf_literal(text):
     return text.replace('\\','\\\\').replace('(','\\(').replace(')','\\)')
 
 def main():
-    p=Extract();p.feed((ROOT/'TECHNICAL_REPORT_2026-10-14.html').read_text(encoding='utf-8'));p.flush()
+    p=Extract();p.feed((ROOT/'TECHNICAL_REPORT_2026-10-15.html').read_text(encoding='utf-8'));p.flush()
     lines=[]
     for paragraph in p.lines:
         lines.extend(textwrap.wrap(paragraph,width=92,break_long_words=False,break_on_hyphens=False))
         lines.append('')
+    while lines and not lines[-1]:lines.pop()
     page_lines=52
     pages=[lines[i:i+page_lines] for i in range(0,len(lines),page_lines)]
     if len(pages)>6:raise RuntimeError(f'Technical report exceeds six pages: {len(pages)}')
@@ -45,7 +46,7 @@ def main():
         commands=['BT /F1 10.5 Tf 50 790 Td 14 TL']
         for line in page:
             commands.append('('+pdf_literal(line)+') Tj T*')
-        commands.extend(['ET','BT /F1 8 Tf 50 35 Td (Track C technical report | 14 October 2026 | page '+str(number)+') Tj ET'])
+        commands.extend(['ET','BT /F1 8 Tf 50 35 Td (Track C technical report | 15 October 2026 | page '+str(number)+') Tj ET'])
         stream='\n'.join(commands).encode('latin-1')
         contents=add(b'<< /Length '+str(len(stream)).encode()+b' >>\nstream\n'+stream+b'\nendstream')
         page_id=add(b'<< /Type /Page /Parent '+str(pages_id).encode()+b' 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 '+str(font).encode()+b' 0 R >> >> /Contents '+str(contents).encode()+b' 0 R >>')
@@ -58,7 +59,7 @@ def main():
     start=len(output);output+=b'xref\n0 '+str(len(objects)+1).encode()+b'\n0000000000 65535 f \n'
     for pos in offsets[1:]:output+=f'{pos:010d} 00000 n \n'.encode()
     output+=b'trailer\n<< /Size '+str(len(objects)+1).encode()+b' /Root '+str(catalog).encode()+b' 0 R >>\nstartxref\n'+str(start).encode()+b'\n%%EOF\n'
-    dest=ROOT/'TECHNICAL_REPORT_2026-10-14.pdf';dest.write_bytes(output)
+    dest=ROOT/'TECHNICAL_REPORT_2026-10-15.pdf';dest.write_bytes(output)
     print(f'PDF pages: {len(pages)}, bytes: {len(output)}')
 
 if __name__=='__main__':main()

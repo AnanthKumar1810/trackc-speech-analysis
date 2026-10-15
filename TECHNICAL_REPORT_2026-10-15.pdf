@@ -13,11 +13,11 @@ endobj
 << /Length 3386 >>
 stream
 BT /F1 10.5 Tf 50 790 Td 14 TL
-(Track C technical report - 14 October 2026) Tj T*
+(Track C technical report - 15 October 2026) Tj T*
 () Tj T*
 (Track C: contrastive speech analysis) Tj T*
 () Tj T*
-(Technical report · 14 October 2026 · Controlled digital edits and a private natural-speech) Tj T*
+(Technical report · 15 October 2026 · Controlled digital edits and a private natural-speech) Tj T*
 (pilot) Tj T*
 () Tj T*
 (Problem and output) Tj T*
@@ -66,23 +66,23 @@ BT /F1 10.5 Tf 50 790 Td 14 TL
 () Tj T*
 (Inference takes only the two audio signals, their estimated word boundaries and an explicit) Tj T*
 ET
-BT /F1 8 Tf 50 35 Td (Track C technical report | 14 October 2026 | page 1) Tj ET
+BT /F1 8 Tf 50 35 Td (Track C technical report | 15 October 2026 | page 1) Tj ET
 endstream
 endobj
 5 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
 endobj
 6 0 obj
-<< /Length 3430 >>
+<< /Length 3383 >>
 stream
 BT /F1 10.5 Tf 50 790 Td 14 TL
 (same-setup flag. It never reads a clip ID, flaw label, intended take or programmed edit) Tj T*
 (interval. For word i, the duration ratio is take duration/reference duration; the level) Tj T*
 (difference is 10 log10\(mean take frame power/mean reference frame power\). For adjacent) Tj T*
 (words, pause excess is take interword gap minus nonnegative reference gap. Threshold) Tj T*
-(crossings generate word or gap intervals, and same-type neighbors within 120 ms merge.) Tj T*
+(crossings generate word or gap intervals, and same-type neighbors within 600 ms merge.) Tj T*
 () Tj T*
-(Event | Train-selected threshold | Cause shown in dashboard) Tj T*
+(Event | Selected threshold | Cause shown in dashboard) Tj T*
 () Tj T*
 (Pause | Gap excess >=0.25 s | Seconds longer than reference gap) Tj T*
 () Tj T*
@@ -90,15 +90,18 @@ BT /F1 10.5 Tf 50 790 Td 14 TL
 () Tj T*
 (Rush | Tempo-normalized duration ratio <0.82 | Locally shorter word duration) Tj T*
 () Tj T*
-(Drag | Tempo-normalized duration ratio >1.22 | Locally longer word duration) Tj T*
+(Drag | Tempo-normalized duration ratio >1.30 | Locally longer word duration) Tj T*
+() Tj T*
+(Event merge | Same type separated by <=0.60 s | Coalesces fragments of one edited region) Tj T*
 () Tj T*
 (The duration ratio is divided by the pair's median word-duration ratio, and word level) Tj T*
 (change is centered by each clip's median energy. This reduces uniform speaker-rate and gain) Tj T*
 (differences while retaining localized deviations. Uniform whole-clip changes are shown) Tj T*
-(separately and cannot be localized by these rules. The four thresholds were selected by a) Tj T*
-(144-point grid search on the Reagan training speaker, balancing overall event F1 and macro) Tj T*
-(recall across flaw/severity groups at interval intersection-over-union \(IoU\) >=0.5. Kennedy) Tj T*
-(and Obama were not used for threshold selection.) Tj T*
+(separately. The optimizer precomputes candidate word/gap evidence, tests 1,024) Tj T*
+(threshold/merge combinations on Reagan training families, ranks by mean family F1, and uses) Tj T*
+(Kennedy validation only as a guard against lower precision or F1. The Obama test speaker is) Tj T*
+(not loaded during selection. The 0.60 s merge setting may combine separate natural events) Tj T*
+(and requires review on natural speech.) Tj T*
 () Tj T*
 (Transparent rubric) Tj T*
 () Tj T*
@@ -125,35 +128,37 @@ BT /F1 10.5 Tf 50 790 Td 14 TL
 (Held-out digital-edit results) Tj T*
 () Tj T*
 (One ground-truth edit exists per non-reference clip. A predicted event counts as localized) Tj T*
-(only when its type matches and its interval IoU with the exact edit is at least 0.5. Event) Tj T*
-(precision uses all predicted intervals; recall uses all labeled edits. This makes extra) Tj T*
-(detections visible.) Tj T*
 ET
-BT /F1 8 Tf 50 35 Td (Track C technical report | 14 October 2026 | page 2) Tj ET
+BT /F1 8 Tf 50 35 Td (Track C technical report | 15 October 2026 | page 2) Tj ET
 endstream
 endobj
 7 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
 endobj
 8 0 obj
-<< /Length 2665 >>
+<< /Length 3626 >>
 stream
 BT /F1 10.5 Tf 50 790 Td 14 TL
+(only when its type matches and its interval IoU with the exact edit is at least 0.5. Event) Tj T*
+(precision uses all predicted intervals; recall uses all labeled edits. This makes extra) Tj T*
+(detections visible.) Tj T*
 () Tj T*
 (Split | Labeled edits | Type present | IoU>=0.5 recall | Event precision | Event F1) Tj T*
 () Tj T*
-(Train / Reagan | 120 | 75.0% | 52.5% | 37.7% | 43.9%) Tj T*
+(Train / Reagan | 120 | 71.7% | 58.3% | 52.2% | 55.1%) Tj T*
 () Tj T*
-(Validation / Kennedy | 36 | 80.6% | 47.2% | 22.4% | 30.4%) Tj T*
+(Validation / Kennedy | 36 | 75.0% | 55.6% | 30.3% | 39.2%) Tj T*
 () Tj T*
-(Test / Obama | 96 | 76.0% | 55.2% | 33.3% | 41.6%) Tj T*
+(Test / Obama | 96 | 75.0% | 60.4% | 42.3% | 49.8%) Tj T*
 () Tj T*
-(On the test speaker, pause localization reached 23/24, quiet 7/24, rush 12/24 and drag) Tj T*
-(11/24. There were 106 extra or insufficient-overlap predicted intervals. Mean best same-type) Tj T*
-(IoU was 0.516. Mean onset and offset errors among localized events were 0.226 s and 0.201 s.) Tj T*
-(These numbers are controlled digital-edit localization only. The older whole-clip model's) Tj T*
-(97.1% digital edit-type accuracy is a different task and does not measure speaking-quality) Tj T*
-(accuracy.) Tj T*
+(On the test speaker, pause localization reached 23/24, quiet 9/24, rush 14/24 and drag) Tj T*
+(12/24. By severity, minor recall was 7/32 \(21.9%\), moderate 23/32 \(71.9%\), and severe 28/32) Tj T*
+(\(87.5%\). At IoU >=0.3 recall was 67.7%; with a ±200 ms onset/offset collar, recall was 47.9%) Tj T*
+(and precision 33.6%. Family-bootstrap 95% intervals at IoU >=0.5 were 49.0-67.7% recall,) Tj T*
+(31.1-57.4% precision, and 39.1-61.1% F1. There were 79 extra or insufficient-overlap) Tj T*
+(predictions, down from 106 with the previous detector. Mean onset/offset errors among) Tj T*
+(IoU-localized events were 0.072/0.166 s. The older whole-clip model's 97.1% digital) Tj T*
+(edit-type accuracy is a different task.) Tj T*
 () Tj T*
 (Limits and remaining human validation) Tj T*
 () Tj T*
@@ -164,6 +169,13 @@ BT /F1 10.5 Tf 50 790 Td 14 TL
 (natural-speech accuracy, human severity calibration, independent transcript audit or) Tj T*
 (measured word-boundary error. Do not present this as a reliable judge of people or public) Tj T*
 (speakers.) Tj T*
+() Tj T*
+(A nuisance negative-control run compared all 21 unedited reference clips with global ±10%) Tj T*
+(speed, ±6 dB gain, ±3-semitone pitch, stationary noise at 25 dB SNR, and 300-3400 Hz) Tj T*
+(band-limited versions. It produced zero localizer events in each of the eight controls. This) Tj T*
+(checks false alerts under global changes on these same-source pairs; it does not prove) Tj T*
+(cross-speaker performance or verify that local flaws remain detectable after those changes.) Tj T*
+(MP3 encoding was not tested.) Tj T*
 () Tj T*
 (Reproduction) Tj T*
 () Tj T*
@@ -179,9 +191,8 @@ BT /F1 10.5 Tf 50 790 Td 14 TL
 (References: official Track C problem statement and submission guide supplied for the) Tj T*
 (hackathon; MFA documentation; DTW implementation and source/rights links recorded in) Tj T*
 (RIGHTS.md. The user handles the required submission video separately.) Tj T*
-() Tj T*
 ET
-BT /F1 8 Tf 50 35 Td (Track C technical report | 14 October 2026 | page 3) Tj ET
+BT /F1 8 Tf 50 35 Td (Track C technical report | 15 October 2026 | page 3) Tj ET
 endstream
 endobj
 9 0 obj
@@ -196,11 +207,11 @@ xref
 0000000203 00000 n 
 0000003641 00000 n 
 0000003767 00000 n 
-0000007249 00000 n 
-0000007375 00000 n 
-0000010092 00000 n 
+0000007202 00000 n 
+0000007328 00000 n 
+0000011006 00000 n 
 trailer
 << /Size 10 /Root 1 0 R >>
 startxref
-10218
+11132
 %%EOF

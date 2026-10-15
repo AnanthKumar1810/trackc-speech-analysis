@@ -1,14 +1,17 @@
 # Dataset card
 
-## Evaluator update (14 October 2026)
+## Evaluator update (15 October 2026)
 
 `evaluation.html` and `src/localizer.py` provide predicted candidate flaw
 intervals and an operational reference-relative rubric. `pair.html` also
 compares arbitrary uploaded recordings at a coarse speech-activity level.
-Train-selected thresholds and held-out results are in `localizer/`. The
-current Obama test-set event precision is 33.3%, recall 55.2%, and F1 41.6%
-at IoU >= 0.5. These controlled digital-edit results are not natural-speech
-accuracy. See `PROJECT_STATUS.md` and the technical report for limitations.
+Threshold and same-type event-merge selection uses a 1,024-candidate search on
+Reagan training passage families, with a Kennedy validation guard. The Obama
+test speaker is not loaded during selection. Current Obama test-set event
+precision is 42.3%, recall 60.4%, and F1 49.8% at IoU >= 0.5; its
+passage-family bootstrap 95% F1 interval is 39.1–61.1%. These controlled
+digital-edit results are not natural-speech accuracy. See `PROJECT_STATUS.md`
+and the technical report for limitations.
 
 ## Purpose and status
 

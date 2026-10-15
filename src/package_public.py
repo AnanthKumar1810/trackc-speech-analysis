@@ -40,7 +40,7 @@ def main():
         z.write(ROOT/'SHA256SUMS_PUBLIC.txt','SHA256SUMS_PUBLIC.txt')
     with zipfile.ZipFile(DEST) as z:
         names=set(z.namelist())
-        assert 'evaluation.html' in names and 'TECHNICAL_REPORT_2026-10-14.pdf' in names
+        assert 'evaluation.html' in names and 'TECHNICAL_REPORT_2026-10-15.pdf' in names
         assert not any(n.startswith('human_pilot/') or n.startswith('.deps/') for n in names)
         assert z.testzip() is None
     print(f'{DEST} | files={len(files)+1} | bytes={DEST.stat().st_size}')
